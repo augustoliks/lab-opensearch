@@ -1,48 +1,91 @@
-version: '3'
+version: "3.7"
 
 services:
-  opensearch-node1:
-    image: opensearchproject/opensearch:1.2.4
-    container_name: opensearch-node1
-    environment:
-      - compatibility.override_main_response_version=true
-      - cluster.name=opensearch-cluster
-      - node.name=opensearch-node1
-      - bootstrap.memory_lock=true # along with the memlock settings below, disables swapping
-      - "OPENSEARCH_JAVA_OPTS=-Xms512m -Xmx512m" # minimum and maximum Java heap size, recommend setting both to 50% of system RAM
-      - "DISABLE_INSTALL_DEMO_CONFIG=true" # disables execution of install_demo_configuration.sh bundled with security plugin, which installs demo certificates and security configurations to OpenSearch
-      - "DISABLE_SECURITY_PLUGIN=true" # disables security plugin entirely in OpenSearch by setting plugins.security.disabled: true in opensearch.yml
-      - "discovery.type=single-node" # disables bootstrap checks that are enabled when network.host is set to a non-loopback address
-    ulimits:
-      memlock:
-        soft: -1
-        hard: -1
-      nofile:
-        soft: 65536 # maximum number of open files for the OpenSearch user, set to at least 65536 on modern systems
-        hard: 65536
+  opensearch:
+    container_name: opensearch
+    build:
+      context: opensearch/
+      args:
+        TAG_VERSION: 1.2.4
     volumes:
-      - opensearch-data1:/usr/share/opensearch/data
+      - type: bind
+        source: ./opensearch/opensearch.yml
+        target: /usr/share/opensearch/config/opensearch.yml
+      - type: volume
+        source: opensearch
+        target: /usr/share/opensearch/data
     ports:
       - 9200:9200
-      - 9600:9600 # required for Performance Analyzer
-    networks:
-      - opensearch-net
+    environment:
+      TIMEZONE: America/Sao_Paulo
+      TZ: America/Sao_Paulo
+      OPENSEARCH_JAVA_OPTS: -Xms512m -Xmx512m
 
   opensearch-dashboards:
-    image: opensearchproject/opensearch-dashboards:1.2.0
     container_name: opensearch-dashboards
+    build:
+      context: opensearch-dashboards/
+      args:
+        TAG_VERSION: 1.2.0
+    volumes:
+      - type: bind
+        source: ./opensearch-dashboards/opensearch_dashboards.yml
+        target: /usr/share/opensearch-dashboards/config/opensearch_dashboards.yml
+        read_only: true
     ports:
       - 5601:5601
-    expose:
-      - "5601"
     environment:
-      - 'OPENSEARCH_HOSTS=["http://opensearch-node1:9200"]'
-      - "DISABLE_SECURITY_DASHBOARDS_PLUGIN=true" # disables security dashboards plugin in OpenSearch Dashboards
-    networks:
-      - opensearch-net
+      TIMEZONE: America/Sao_Paulo
+      TZ: America/Sao_Paulo
+      LS_JAVA_OPTS: "-Xmx1g -Xms256m"
+    depends_on:
+      - opensearch
+
+  logstash:
+    container_name: logstash
+    build:
+      context: logstash/
+      args:
+        TAG_VERSION: "7.16.3"
+    volumes:
+      - type: bind
+        source: ./logstash/pipeline/
+        target: /usr/share/logstash/pipeline/
+        read_only: true
+      - type: bind
+        source: ./logstash/config/logstash.yml
+        target: /usr/share/logstash/config/logstash.yml
+        read_only: true
+      - type: bind
+        source: ./logstash/config/pipelines.yml
+        target: /usr/share/logstash/config/pipelines.yml
+        read_only: true
+    ports:
+      - 5000:5000
+    environment:
+      TIMEZONE: America/Sao_Paulo
+      TZ: America/Sao_Paulo
+      LS_JAVA_OPTS: "-Xmx1g -Xms256m"
+      LS_OPTS: "--config.reload.automatic"
+
+  filebeat:
+    container_name: filebeat
+    build:
+      context: filebeat/
+      args:
+        TAG_VERSION: "8.0.1"
+    volumes:
+      - type: bind
+        source: ./filebeat/filebeat.yml
+        target: /usr/share/filebeat/filebeat.yml
+      - type: bind
+        source: ./filebeat/log
+        target: /var/log
+    environment:
+      TIMEZONE: America/Sao_Paulo
+      TZ: America/Sao_Paulo
+      LS_JAVA_OPTS: "-Xmx256m -Xms256m"
+      HOSTNAME: filebeat
 
 volumes:
-  opensearch-data1:
-
-networks:
-  opensearch-net:
+  opensearch:

@@ -1,0 +1,1179 @@
+2022-04-15T21:01:07-0300 DEBUG YUM version: 4.11.1
+2022-04-15T21:01:07-0300 DDEBUG Command: yum install rancher-desktop -y 
+2022-04-15T21:01:07-0300 DDEBUG Installroot: /
+2022-04-15T21:01:07-0300 DDEBUG Releasever: 35
+2022-04-15T21:01:07-0300 DEBUG cachedir: /var/cache/dnf
+2022-04-15T21:01:07-0300 DDEBUG Base command: install
+2022-04-15T21:01:07-0300 DDEBUG Extra commands: ['install', 'rancher-desktop', '-y']
+2022-04-15T21:01:07-0300 DEBUG Unknown configuration option: autorefresh = 1 in /etc/yum.repos.d/_elastic.repo
+2022-04-15T21:01:07-0300 DEBUG User-Agent: constructed: 'libdnf (Fedora Linux 35; workstation; Linux.x86_64)'
+2022-04-15T21:01:08-0300 DEBUG repo: using cache for: phracek-PyCharm
+2022-04-15T21:01:08-0300 DEBUG phracek-PyCharm: using metadata from qui 07 abr 2022 01:16:25.
+2022-04-15T21:01:08-0300 DEBUG repo: using cache for: elastic-7.x
+2022-04-15T21:01:08-0300 DEBUG elastic-7.x: using metadata from seg 28 mar 2022 22:47:12.
+2022-04-15T21:01:08-0300 DEBUG repo: using cache for: isv_Rancher_stable
+2022-04-15T21:01:08-0300 DEBUG isv_Rancher_stable: using metadata from ter 12 abr 2022 14:06:33.
+2022-04-15T21:01:08-0300 DEBUG repo: using cache for: docker-ce-stable
+2022-04-15T21:01:08-0300 DEBUG docker-ce-stable: using metadata from qua 23 mar 2022 23:35:23.
+2022-04-15T21:01:08-0300 DEBUG repo: using cache for: fedora
+2022-04-15T21:01:08-0300 DEBUG fedora: using metadata from ter 26 out 2021 02:31:27.
+2022-04-15T21:01:08-0300 DEBUG repo: using cache for: fedora-cisco-openh264
+2022-04-15T21:01:08-0300 DEBUG fedora-cisco-openh264: using metadata from ter 21 set 2021 15:07:30.
+2022-04-15T21:01:08-0300 DEBUG repo: using cache for: fedora-modular
+2022-04-15T21:01:08-0300 DEBUG fedora-modular: using metadata from ter 26 out 2021 02:08:36.
+2022-04-15T21:01:08-0300 DEBUG repo: using cache for: updates
+2022-04-15T21:01:08-0300 DEBUG updates: using metadata from sex 15 abr 2022 11:30:14.
+2022-04-15T21:01:08-0300 DEBUG repo: using cache for: updates-modular
+2022-04-15T21:01:08-0300 DEBUG updates-modular: using metadata from seg 04 abr 2022 21:44:03.
+2022-04-15T21:01:08-0300 DEBUG repo: using cache for: google-chrome
+2022-04-15T21:01:08-0300 DEBUG google-chrome: using metadata from qui 14 abr 2022 18:02:04.
+2022-04-15T21:01:08-0300 DEBUG repo: using cache for: google-chrome-unstable
+2022-04-15T21:01:08-0300 DEBUG google-chrome-unstable: using metadata from qui 14 abr 2022 18:02:04.
+2022-04-15T21:01:09-0300 DEBUG repo: using cache for: kubernetes
+2022-04-15T21:01:09-0300 DEBUG kubernetes: using metadata from seg 25 ago 1941 03:44:19.
+2022-04-15T21:01:09-0300 DEBUG repo: using cache for: rpmfusion-free
+2022-04-15T21:01:09-0300 DEBUG rpmfusion-free: using metadata from sáb 23 out 2021 18:56:55.
+2022-04-15T21:01:09-0300 DEBUG repo: using cache for: rpmfusion-free-updates
+2022-04-15T21:01:09-0300 DEBUG rpmfusion-free-updates: using metadata from qui 14 abr 2022 09:38:50.
+2022-04-15T21:01:09-0300 DEBUG repo: using cache for: rpmfusion-nonfree
+2022-04-15T21:01:09-0300 DEBUG rpmfusion-nonfree: using metadata from sáb 23 out 2021 20:27:21.
+2022-04-15T21:01:09-0300 DEBUG repo: using cache for: rpmfusion-nonfree-nvidia-driver
+2022-04-15T21:01:09-0300 DEBUG rpmfusion-nonfree-nvidia-driver: using metadata from dom 10 abr 2022 14:05:07.
+2022-04-15T21:01:09-0300 DEBUG repo: using cache for: rpmfusion-nonfree-steam
+2022-04-15T21:01:09-0300 DEBUG rpmfusion-nonfree-steam: using metadata from dom 13 fev 2022 14:48:10.
+2022-04-15T21:01:09-0300 DEBUG repo: using cache for: rpmfusion-nonfree-updates
+2022-04-15T21:01:09-0300 DEBUG rpmfusion-nonfree-updates: using metadata from qui 14 abr 2022 10:14:35.
+2022-04-15T21:01:09-0300 INFO Last metadata expiration check: 0:01:08 ago on sex 15 abr 2022 21:00:01.
+2022-04-15T21:01:09-0300 DDEBUG timer: sack setup: 1355 ms
+2022-04-15T21:01:09-0300 DEBUG --> Starting dependency resolution
+2022-04-15T21:01:09-0300 DEBUG ---> Package rancher-desktop.x86_64 1.2.1-lp153.4.3 will be installed
+2022-04-15T21:01:09-0300 DEBUG ---> Package SLOF.noarch 20210217-2.git33a7322d.fc35 will be installed
+2022-04-15T21:01:09-0300 DEBUG ---> Package openbios.noarch 1:20200725-3.git7f28286.fc35 will be installed
+2022-04-15T21:01:09-0300 DEBUG ---> Package edk2-aarch64.noarch 20211126gitbb1bba3d7767-1.fc35 will be installed
+2022-04-15T21:01:09-0300 DEBUG ---> Package qemu.x86_64 2:6.1.0-14.fc35 will be installed
+2022-04-15T21:01:09-0300 DEBUG ---> Package qemu-pr-helper.x86_64 2:6.1.0-14.fc35 will be installed
+2022-04-15T21:01:09-0300 DEBUG ---> Package qemu-system-aarch64.x86_64 2:6.1.0-14.fc35 will be installed
+2022-04-15T21:01:09-0300 DEBUG ---> Package qemu-system-aarch64-core.x86_64 2:6.1.0-14.fc35 will be installed
+2022-04-15T21:01:09-0300 DEBUG ---> Package qemu-system-alpha.x86_64 2:6.1.0-14.fc35 will be installed
+2022-04-15T21:01:09-0300 DEBUG ---> Package qemu-system-alpha-core.x86_64 2:6.1.0-14.fc35 will be installed
+2022-04-15T21:01:09-0300 DEBUG ---> Package qemu-system-arm.x86_64 2:6.1.0-14.fc35 will be installed
+2022-04-15T21:01:09-0300 DEBUG ---> Package qemu-system-arm-core.x86_64 2:6.1.0-14.fc35 will be installed
+2022-04-15T21:01:09-0300 DEBUG ---> Package qemu-system-avr.x86_64 2:6.1.0-14.fc35 will be installed
+2022-04-15T21:01:09-0300 DEBUG ---> Package qemu-system-avr-core.x86_64 2:6.1.0-14.fc35 will be installed
+2022-04-15T21:01:09-0300 DEBUG ---> Package qemu-system-cris.x86_64 2:6.1.0-14.fc35 will be installed
+2022-04-15T21:01:09-0300 DEBUG ---> Package qemu-system-cris-core.x86_64 2:6.1.0-14.fc35 will be installed
+2022-04-15T21:01:09-0300 DEBUG ---> Package qemu-system-m68k.x86_64 2:6.1.0-14.fc35 will be installed
+2022-04-15T21:01:09-0300 DEBUG ---> Package qemu-system-m68k-core.x86_64 2:6.1.0-14.fc35 will be installed
+2022-04-15T21:01:09-0300 DEBUG ---> Package qemu-system-microblaze.x86_64 2:6.1.0-14.fc35 will be installed
+2022-04-15T21:01:09-0300 DEBUG ---> Package qemu-system-microblaze-core.x86_64 2:6.1.0-14.fc35 will be installed
+2022-04-15T21:01:09-0300 DEBUG ---> Package qemu-system-mips.x86_64 2:6.1.0-14.fc35 will be installed
+2022-04-15T21:01:09-0300 DEBUG ---> Package qemu-system-mips-core.x86_64 2:6.1.0-14.fc35 will be installed
+2022-04-15T21:01:09-0300 DEBUG ---> Package qemu-system-nios2.x86_64 2:6.1.0-14.fc35 will be installed
+2022-04-15T21:01:09-0300 DEBUG ---> Package qemu-system-nios2-core.x86_64 2:6.1.0-14.fc35 will be installed
+2022-04-15T21:01:09-0300 DEBUG ---> Package qemu-system-or1k.x86_64 2:6.1.0-14.fc35 will be installed
+2022-04-15T21:01:09-0300 DEBUG ---> Package qemu-system-or1k-core.x86_64 2:6.1.0-14.fc35 will be installed
+2022-04-15T21:01:09-0300 DEBUG ---> Package qemu-system-ppc.x86_64 2:6.1.0-14.fc35 will be installed
+2022-04-15T21:01:09-0300 DEBUG ---> Package qemu-system-ppc-core.x86_64 2:6.1.0-14.fc35 will be installed
+2022-04-15T21:01:09-0300 DEBUG ---> Package qemu-system-riscv.x86_64 2:6.1.0-14.fc35 will be installed
+2022-04-15T21:01:09-0300 DEBUG ---> Package qemu-system-riscv-core.x86_64 2:6.1.0-14.fc35 will be installed
+2022-04-15T21:01:09-0300 DEBUG ---> Package qemu-system-rx.x86_64 2:6.1.0-14.fc35 will be installed
+2022-04-15T21:01:09-0300 DEBUG ---> Package qemu-system-rx-core.x86_64 2:6.1.0-14.fc35 will be installed
+2022-04-15T21:01:09-0300 DEBUG ---> Package qemu-system-s390x.x86_64 2:6.1.0-14.fc35 will be installed
+2022-04-15T21:01:09-0300 DEBUG ---> Package qemu-system-s390x-core.x86_64 2:6.1.0-14.fc35 will be installed
+2022-04-15T21:01:09-0300 DEBUG ---> Package qemu-system-sh4.x86_64 2:6.1.0-14.fc35 will be installed
+2022-04-15T21:01:09-0300 DEBUG ---> Package qemu-system-sh4-core.x86_64 2:6.1.0-14.fc35 will be installed
+2022-04-15T21:01:09-0300 DEBUG ---> Package qemu-system-sparc.x86_64 2:6.1.0-14.fc35 will be installed
+2022-04-15T21:01:09-0300 DEBUG ---> Package qemu-system-sparc-core.x86_64 2:6.1.0-14.fc35 will be installed
+2022-04-15T21:01:09-0300 DEBUG ---> Package qemu-system-tricore.x86_64 2:6.1.0-14.fc35 will be installed
+2022-04-15T21:01:09-0300 DEBUG ---> Package qemu-system-tricore-core.x86_64 2:6.1.0-14.fc35 will be installed
+2022-04-15T21:01:09-0300 DEBUG ---> Package qemu-system-xtensa.x86_64 2:6.1.0-14.fc35 will be installed
+2022-04-15T21:01:09-0300 DEBUG ---> Package qemu-system-xtensa-core.x86_64 2:6.1.0-14.fc35 will be installed
+2022-04-15T21:01:09-0300 DEBUG ---> Package qemu-tools.x86_64 2:6.1.0-14.fc35 will be installed
+2022-04-15T21:01:09-0300 DEBUG ---> Package qemu-user.x86_64 2:6.1.0-14.fc35 will be installed
+2022-04-15T21:01:09-0300 DEBUG --> Finished dependency resolution
+2022-04-15T21:01:09-0300 DDEBUG timer: depsolve: 60 ms
+2022-04-15T21:01:09-0300 INFO Dependencies resolved.
+2022-04-15T21:01:09-0300 INFO ==================================================================
+ Package                     Arch   Version         Repo     Size
+==================================================================
+Installing:
+ rancher-desktop             x86_64 1.2.1-lp153.4.3 isv_Rancher_stable
+                                                            355 M
+Installing dependencies:
+ SLOF                        noarch 20210217-2.git33a7322d.fc35
+                                                    fedora  217 k
+ edk2-aarch64                noarch 20211126gitbb1bba3d7767-1.fc35
+                                                    updates 5.3 M
+ openbios                    noarch 1:20200725-3.git7f28286.fc35
+                                                    fedora  307 k
+ qemu                        x86_64 2:6.1.0-14.fc35 updates  15 k
+ qemu-pr-helper              x86_64 2:6.1.0-14.fc35 updates 316 k
+ qemu-system-aarch64         x86_64 2:6.1.0-14.fc35 updates  15 k
+ qemu-system-aarch64-core    x86_64 2:6.1.0-14.fc35 updates 4.5 M
+ qemu-system-alpha           x86_64 2:6.1.0-14.fc35 updates  15 k
+ qemu-system-alpha-core      x86_64 2:6.1.0-14.fc35 updates 3.0 M
+ qemu-system-arm             x86_64 2:6.1.0-14.fc35 updates  15 k
+ qemu-system-arm-core        x86_64 2:6.1.0-14.fc35 updates 4.1 M
+ qemu-system-avr             x86_64 2:6.1.0-14.fc35 updates  15 k
+ qemu-system-avr-core        x86_64 2:6.1.0-14.fc35 updates 2.1 M
+ qemu-system-cris            x86_64 2:6.1.0-14.fc35 updates  15 k
+ qemu-system-cris-core       x86_64 2:6.1.0-14.fc35 updates 2.1 M
+ qemu-system-m68k            x86_64 2:6.1.0-14.fc35 updates  15 k
+ qemu-system-m68k-core       x86_64 2:6.1.0-14.fc35 updates 2.4 M
+ qemu-system-microblaze      x86_64 2:6.1.0-14.fc35 updates  15 k
+ qemu-system-microblaze-core x86_64 2:6.1.0-14.fc35 updates 2.5 M
+ qemu-system-mips            x86_64 2:6.1.0-14.fc35 updates  15 k
+ qemu-system-mips-core       x86_64 2:6.1.0-14.fc35 updates  13 M
+ qemu-system-nios2           x86_64 2:6.1.0-14.fc35 updates  15 k
+ qemu-system-nios2-core      x86_64 2:6.1.0-14.fc35 updates 2.1 M
+ qemu-system-or1k            x86_64 2:6.1.0-14.fc35 updates  15 k
+ qemu-system-or1k-core       x86_64 2:6.1.0-14.fc35 updates 2.1 M
+ qemu-system-ppc             x86_64 2:6.1.0-14.fc35 updates  15 k
+ qemu-system-ppc-core        x86_64 2:6.1.0-14.fc35 updates 7.9 M
+ qemu-system-riscv           x86_64 2:6.1.0-14.fc35 updates  15 k
+ qemu-system-riscv-core      x86_64 2:6.1.0-14.fc35 updates 6.5 M
+ qemu-system-rx              x86_64 2:6.1.0-14.fc35 updates  15 k
+ qemu-system-rx-core         x86_64 2:6.1.0-14.fc35 updates 2.1 M
+ qemu-system-s390x           x86_64 2:6.1.0-14.fc35 updates  15 k
+ qemu-system-s390x-core      x86_64 2:6.1.0-14.fc35 updates 2.7 M
+ qemu-system-sh4             x86_64 2:6.1.0-14.fc35 updates  15 k
+ qemu-system-sh4-core        x86_64 2:6.1.0-14.fc35 updates 5.7 M
+ qemu-system-sparc           x86_64 2:6.1.0-14.fc35 updates  15 k
+ qemu-system-sparc-core      x86_64 2:6.1.0-14.fc35 updates 4.7 M
+ qemu-system-tricore         x86_64 2:6.1.0-14.fc35 updates  15 k
+ qemu-system-tricore-core    x86_64 2:6.1.0-14.fc35 updates 2.1 M
+ qemu-system-xtensa          x86_64 2:6.1.0-14.fc35 updates  15 k
+ qemu-system-xtensa-core     x86_64 2:6.1.0-14.fc35 updates 6.6 M
+ qemu-tools                  x86_64 2:6.1.0-14.fc35 updates 210 k
+ qemu-user                   x86_64 2:6.1.0-14.fc35 updates  17 M
+
+Transaction Summary
+==================================================================
+Install  44 Packages
+
+2022-04-15T21:01:09-0300 INFO Total download size: 454 M
+2022-04-15T21:01:09-0300 INFO Installed size: 1.6 G
+2022-04-15T21:01:09-0300 INFO Downloading Packages:
+2022-04-15T21:03:08-0300 INFO ------------------------------------------------------------------
+2022-04-15T21:03:08-0300 INFO Total                             3.8 MB/s | 454 MB     01:59     
+2022-04-15T21:03:08-0300 DEBUG Using rpmkeys executable at /usr/bin/rpmkeys to verify signatures
+2022-04-15T21:03:12-0300 INFO Running transaction check
+2022-04-15T21:03:12-0300 INFO Transaction check succeeded.
+2022-04-15T21:03:12-0300 INFO Running transaction test
+2022-04-15T21:03:15-0300 INFO Transaction test succeeded.
+2022-04-15T21:03:15-0300 DDEBUG timer: transaction test: 3538 ms
+2022-04-15T21:03:15-0300 INFO Running transaction
+2022-04-15T21:03:15-0300 DDEBUG RPM transaction start.
+2022-04-15T21:03:54-0300 DDEBUG RPM transaction over.
+2022-04-15T21:03:56-0300 DDEBUG timer: verify transaction: 2127 ms
+2022-04-15T21:03:56-0300 DDEBUG timer: transaction: 40972 ms
+2022-04-15T21:03:56-0300 DEBUG Completion plugin: Generating completion cache...
+2022-04-15T21:03:57-0300 DEBUG Installed: SLOF-20210217-2.git33a7322d.fc35.noarch
+2022-04-15T21:03:57-0300 DEBUG Installed: edk2-aarch64-20211126gitbb1bba3d7767-1.fc35.noarch
+2022-04-15T21:03:57-0300 DEBUG Installed: openbios-1:20200725-3.git7f28286.fc35.noarch
+2022-04-15T21:03:57-0300 DEBUG Installed: qemu-2:6.1.0-14.fc35.x86_64
+2022-04-15T21:03:57-0300 DEBUG Installed: qemu-pr-helper-2:6.1.0-14.fc35.x86_64
+2022-04-15T21:03:57-0300 DEBUG Installed: qemu-system-aarch64-2:6.1.0-14.fc35.x86_64
+2022-04-15T21:03:57-0300 DEBUG Installed: qemu-system-aarch64-core-2:6.1.0-14.fc35.x86_64
+2022-04-15T21:03:57-0300 DEBUG Installed: qemu-system-alpha-2:6.1.0-14.fc35.x86_64
+2022-04-15T21:03:57-0300 DEBUG Installed: qemu-system-alpha-core-2:6.1.0-14.fc35.x86_64
+2022-04-15T21:03:57-0300 DEBUG Installed: qemu-system-arm-2:6.1.0-14.fc35.x86_64
+2022-04-15T21:03:57-0300 DEBUG Installed: qemu-system-arm-core-2:6.1.0-14.fc35.x86_64
+2022-04-15T21:03:57-0300 DEBUG Installed: qemu-system-avr-2:6.1.0-14.fc35.x86_64
+2022-04-15T21:03:57-0300 DEBUG Installed: qemu-system-avr-core-2:6.1.0-14.fc35.x86_64
+2022-04-15T21:03:57-0300 DEBUG Installed: qemu-system-cris-2:6.1.0-14.fc35.x86_64
+2022-04-15T21:03:57-0300 DEBUG Installed: qemu-system-cris-core-2:6.1.0-14.fc35.x86_64
+2022-04-15T21:03:57-0300 DEBUG Installed: qemu-system-m68k-2:6.1.0-14.fc35.x86_64
+2022-04-15T21:03:57-0300 DEBUG Installed: qemu-system-m68k-core-2:6.1.0-14.fc35.x86_64
+2022-04-15T21:03:57-0300 DEBUG Installed: qemu-system-microblaze-2:6.1.0-14.fc35.x86_64
+2022-04-15T21:03:57-0300 DEBUG Installed: qemu-system-microblaze-core-2:6.1.0-14.fc35.x86_64
+2022-04-15T21:03:57-0300 DEBUG Installed: qemu-system-mips-2:6.1.0-14.fc35.x86_64
+2022-04-15T21:03:57-0300 DEBUG Installed: qemu-system-mips-core-2:6.1.0-14.fc35.x86_64
+2022-04-15T21:03:57-0300 DEBUG Installed: qemu-system-nios2-2:6.1.0-14.fc35.x86_64
+2022-04-15T21:03:57-0300 DEBUG Installed: qemu-system-nios2-core-2:6.1.0-14.fc35.x86_64
+2022-04-15T21:03:57-0300 DEBUG Installed: qemu-system-or1k-2:6.1.0-14.fc35.x86_64
+2022-04-15T21:03:57-0300 DEBUG Installed: qemu-system-or1k-core-2:6.1.0-14.fc35.x86_64
+2022-04-15T21:03:57-0300 DEBUG Installed: qemu-system-ppc-2:6.1.0-14.fc35.x86_64
+2022-04-15T21:03:57-0300 DEBUG Installed: qemu-system-ppc-core-2:6.1.0-14.fc35.x86_64
+2022-04-15T21:03:57-0300 DEBUG Installed: qemu-system-riscv-2:6.1.0-14.fc35.x86_64
+2022-04-15T21:03:57-0300 DEBUG Installed: qemu-system-riscv-core-2:6.1.0-14.fc35.x86_64
+2022-04-15T21:03:57-0300 DEBUG Installed: qemu-system-rx-2:6.1.0-14.fc35.x86_64
+2022-04-15T21:03:57-0300 DEBUG Installed: qemu-system-rx-core-2:6.1.0-14.fc35.x86_64
+2022-04-15T21:03:57-0300 DEBUG Installed: qemu-system-s390x-2:6.1.0-14.fc35.x86_64
+2022-04-15T21:03:57-0300 DEBUG Installed: qemu-system-s390x-core-2:6.1.0-14.fc35.x86_64
+2022-04-15T21:03:57-0300 DEBUG Installed: qemu-system-sh4-2:6.1.0-14.fc35.x86_64
+2022-04-15T21:03:57-0300 DEBUG Installed: qemu-system-sh4-core-2:6.1.0-14.fc35.x86_64
+2022-04-15T21:03:57-0300 DEBUG Installed: qemu-system-sparc-2:6.1.0-14.fc35.x86_64
+2022-04-15T21:03:57-0300 DEBUG Installed: qemu-system-sparc-core-2:6.1.0-14.fc35.x86_64
+2022-04-15T21:03:57-0300 DEBUG Installed: qemu-system-tricore-2:6.1.0-14.fc35.x86_64
+2022-04-15T21:03:57-0300 DEBUG Installed: qemu-system-tricore-core-2:6.1.0-14.fc35.x86_64
+2022-04-15T21:03:57-0300 DEBUG Installed: qemu-system-xtensa-2:6.1.0-14.fc35.x86_64
+2022-04-15T21:03:57-0300 DEBUG Installed: qemu-system-xtensa-core-2:6.1.0-14.fc35.x86_64
+2022-04-15T21:03:57-0300 DEBUG Installed: qemu-tools-2:6.1.0-14.fc35.x86_64
+2022-04-15T21:03:57-0300 DEBUG Installed: qemu-user-2:6.1.0-14.fc35.x86_64
+2022-04-15T21:03:57-0300 DEBUG Installed: rancher-desktop-1.2.1-lp153.4.3.x86_64
+2022-04-15T21:03:57-0300 INFO Complete!
+2022-04-15T21:03:57-0300 DDEBUG Cleaning up.
+2022-04-15T21:03:57-0300 DDEBUG /var/cache/dnf/updates-7eea87b22825bc0d/packages/qemu-system-xtensa-6.1.0-14.fc35.x86_64.rpm removed
+2022-04-15T21:03:57-0300 DDEBUG /var/cache/dnf/updates-7eea87b22825bc0d/packages/qemu-system-aarch64-core-6.1.0-14.fc35.x86_64.rpm removed
+2022-04-15T21:03:57-0300 DDEBUG /var/cache/dnf/updates-7eea87b22825bc0d/packages/qemu-system-sparc-core-6.1.0-14.fc35.x86_64.rpm removed
+2022-04-15T21:03:57-0300 DDEBUG /var/cache/dnf/updates-7eea87b22825bc0d/packages/qemu-user-6.1.0-14.fc35.x86_64.rpm removed
+2022-04-15T21:03:57-0300 DDEBUG /var/cache/dnf/updates-7eea87b22825bc0d/packages/qemu-6.1.0-14.fc35.x86_64.rpm removed
+2022-04-15T21:03:57-0300 DDEBUG /var/cache/dnf/updates-7eea87b22825bc0d/packages/qemu-system-nios2-core-6.1.0-14.fc35.x86_64.rpm removed
+2022-04-15T21:03:57-0300 DDEBUG /var/cache/dnf/updates-7eea87b22825bc0d/packages/qemu-pr-helper-6.1.0-14.fc35.x86_64.rpm removed
+2022-04-15T21:03:57-0300 DDEBUG /var/cache/dnf/updates-7eea87b22825bc0d/packages/qemu-system-tricore-6.1.0-14.fc35.x86_64.rpm removed
+2022-04-15T21:03:57-0300 DDEBUG /var/cache/dnf/updates-7eea87b22825bc0d/packages/qemu-system-ppc-6.1.0-14.fc35.x86_64.rpm removed
+2022-04-15T21:03:57-0300 DDEBUG /var/cache/dnf/updates-7eea87b22825bc0d/packages/qemu-system-rx-6.1.0-14.fc35.x86_64.rpm removed
+2022-04-15T21:03:57-0300 DDEBUG /var/cache/dnf/updates-7eea87b22825bc0d/packages/qemu-system-cris-core-6.1.0-14.fc35.x86_64.rpm removed
+2022-04-15T21:03:57-0300 DDEBUG /var/cache/dnf/updates-7eea87b22825bc0d/packages/edk2-aarch64-20211126gitbb1bba3d7767-1.fc35.noarch.rpm removed
+2022-04-15T21:03:57-0300 DDEBUG /var/cache/dnf/updates-7eea87b22825bc0d/packages/qemu-system-alpha-core-6.1.0-14.fc35.x86_64.rpm removed
+2022-04-15T21:03:57-0300 DDEBUG /var/cache/dnf/updates-7eea87b22825bc0d/packages/qemu-system-xtensa-core-6.1.0-14.fc35.x86_64.rpm removed
+2022-04-15T21:03:57-0300 DDEBUG /var/cache/dnf/fedora-37d3cae0527b6391/packages/openbios-20200725-3.git7f28286.fc35.noarch.rpm removed
+2022-04-15T21:03:57-0300 DDEBUG /var/cache/dnf/updates-7eea87b22825bc0d/packages/qemu-system-riscv-core-6.1.0-14.fc35.x86_64.rpm removed
+2022-04-15T21:03:57-0300 DDEBUG /var/cache/dnf/updates-7eea87b22825bc0d/packages/qemu-system-sh4-core-6.1.0-14.fc35.x86_64.rpm removed
+2022-04-15T21:03:57-0300 DDEBUG /var/cache/dnf/updates-7eea87b22825bc0d/packages/qemu-system-or1k-6.1.0-14.fc35.x86_64.rpm removed
+2022-04-15T21:03:57-0300 DDEBUG /var/cache/dnf/updates-7eea87b22825bc0d/packages/qemu-system-ppc-core-6.1.0-14.fc35.x86_64.rpm removed
+2022-04-15T21:03:57-0300 DDEBUG /var/cache/dnf/updates-7eea87b22825bc0d/packages/qemu-system-mips-6.1.0-14.fc35.x86_64.rpm removed
+2022-04-15T21:03:57-0300 DDEBUG /var/cache/dnf/updates-7eea87b22825bc0d/packages/qemu-system-microblaze-core-6.1.0-14.fc35.x86_64.rpm removed
+2022-04-15T21:03:57-0300 DDEBUG /var/cache/dnf/updates-7eea87b22825bc0d/packages/qemu-system-s390x-6.1.0-14.fc35.x86_64.rpm removed
+2022-04-15T21:03:57-0300 DDEBUG /var/cache/dnf/updates-7eea87b22825bc0d/packages/qemu-system-microblaze-6.1.0-14.fc35.x86_64.rpm removed
+2022-04-15T21:03:57-0300 DDEBUG /var/cache/dnf/updates-7eea87b22825bc0d/packages/qemu-system-or1k-core-6.1.0-14.fc35.x86_64.rpm removed
+2022-04-15T21:03:57-0300 DDEBUG /var/cache/dnf/updates-7eea87b22825bc0d/packages/qemu-system-m68k-6.1.0-14.fc35.x86_64.rpm removed
+2022-04-15T21:03:57-0300 DDEBUG /var/cache/dnf/updates-7eea87b22825bc0d/packages/qemu-system-sparc-6.1.0-14.fc35.x86_64.rpm removed
+2022-04-15T21:03:57-0300 DDEBUG /var/cache/dnf/updates-7eea87b22825bc0d/packages/qemu-system-tricore-core-6.1.0-14.fc35.x86_64.rpm removed
+2022-04-15T21:03:57-0300 DDEBUG /var/cache/dnf/updates-7eea87b22825bc0d/packages/qemu-system-aarch64-6.1.0-14.fc35.x86_64.rpm removed
+2022-04-15T21:03:57-0300 DDEBUG /var/cache/dnf/updates-7eea87b22825bc0d/packages/qemu-system-avr-6.1.0-14.fc35.x86_64.rpm removed
+2022-04-15T21:03:57-0300 DDEBUG /var/cache/dnf/updates-7eea87b22825bc0d/packages/qemu-system-riscv-6.1.0-14.fc35.x86_64.rpm removed
+2022-04-15T21:03:57-0300 DDEBUG /var/cache/dnf/updates-7eea87b22825bc0d/packages/qemu-system-arm-6.1.0-14.fc35.x86_64.rpm removed
+2022-04-15T21:03:57-0300 DDEBUG /var/cache/dnf/updates-7eea87b22825bc0d/packages/qemu-system-cris-6.1.0-14.fc35.x86_64.rpm removed
+2022-04-15T21:03:57-0300 DDEBUG /var/cache/dnf/updates-7eea87b22825bc0d/packages/qemu-system-arm-core-6.1.0-14.fc35.x86_64.rpm removed
+2022-04-15T21:03:57-0300 DDEBUG /var/cache/dnf/fedora-37d3cae0527b6391/packages/SLOF-20210217-2.git33a7322d.fc35.noarch.rpm removed
+2022-04-15T21:03:57-0300 DDEBUG /var/cache/dnf/updates-7eea87b22825bc0d/packages/qemu-system-sh4-6.1.0-14.fc35.x86_64.rpm removed
+2022-04-15T21:03:57-0300 DDEBUG /var/cache/dnf/updates-7eea87b22825bc0d/packages/qemu-system-avr-core-6.1.0-14.fc35.x86_64.rpm removed
+2022-04-15T21:03:57-0300 DDEBUG /var/cache/dnf/updates-7eea87b22825bc0d/packages/qemu-system-nios2-6.1.0-14.fc35.x86_64.rpm removed
+2022-04-15T21:03:57-0300 DDEBUG /var/cache/dnf/updates-7eea87b22825bc0d/packages/qemu-tools-6.1.0-14.fc35.x86_64.rpm removed
+2022-04-15T21:03:57-0300 DDEBUG /var/cache/dnf/isv_Rancher_stable-a8353f092872d2bb/packages/rancher-desktop-1.2.1-lp153.4.3.x86_64.rpm removed
+2022-04-15T21:03:57-0300 DDEBUG /var/cache/dnf/updates-7eea87b22825bc0d/packages/qemu-system-rx-core-6.1.0-14.fc35.x86_64.rpm removed
+2022-04-15T21:03:57-0300 DDEBUG /var/cache/dnf/updates-7eea87b22825bc0d/packages/qemu-system-s390x-core-6.1.0-14.fc35.x86_64.rpm removed
+2022-04-15T21:03:57-0300 DDEBUG /var/cache/dnf/updates-7eea87b22825bc0d/packages/qemu-system-mips-core-6.1.0-14.fc35.x86_64.rpm removed
+2022-04-15T21:03:57-0300 DDEBUG /var/cache/dnf/updates-7eea87b22825bc0d/packages/qemu-system-alpha-6.1.0-14.fc35.x86_64.rpm removed
+2022-04-15T21:03:57-0300 DDEBUG /var/cache/dnf/updates-7eea87b22825bc0d/packages/qemu-system-m68k-core-6.1.0-14.fc35.x86_64.rpm removed
+2022-04-15T21:10:25-0300 INFO --- logging initialized ---
+2022-04-15T21:10:25-0300 DDEBUG timer: config: 2 ms
+2022-04-15T21:10:25-0300 DEBUG Loaded plugins: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, groups-manager, needs-restarting, playground, repoclosure, repodiff, repograph, repomanage, reposync, system-upgrade
+2022-04-15T21:10:25-0300 DEBUG YUM version: 4.11.1
+2022-04-15T21:10:25-0300 DDEBUG Command: yum remove docker 
+2022-04-15T21:10:25-0300 DDEBUG Installroot: /
+2022-04-15T21:10:25-0300 DDEBUG Releasever: 35
+2022-04-15T21:10:25-0300 DEBUG cachedir: /var/cache/dnf
+2022-04-15T21:10:25-0300 DDEBUG Base command: remove
+2022-04-15T21:10:25-0300 DDEBUG Extra commands: ['remove', 'docker']
+2022-04-15T21:10:25-0300 DEBUG Unknown configuration option: autorefresh = 1 in /etc/yum.repos.d/_elastic.repo
+2022-04-15T21:10:25-0300 DEBUG User-Agent: constructed: 'libdnf (Fedora Linux 35; workstation; Linux.x86_64)'
+2022-04-15T21:10:25-0300 DDEBUG timer: sack setup: 218 ms
+2022-04-15T21:10:25-0300 INFO No match for argument: docker
+2022-04-15T21:10:25-0300 WARNING No packages marked for removal.
+2022-04-15T21:10:25-0300 DEBUG --> Starting dependency resolution
+2022-04-15T21:10:25-0300 DEBUG --> Finished dependency resolution
+2022-04-15T21:10:25-0300 DDEBUG timer: depsolve: 14 ms
+2022-04-15T21:10:25-0300 INFO Dependencies resolved.
+2022-04-15T21:10:25-0300 INFO Nothing to do.
+2022-04-15T21:10:25-0300 INFO Complete!
+2022-04-15T21:10:25-0300 DDEBUG Cleaning up.
+2022-04-15T21:10:28-0300 INFO --- logging initialized ---
+2022-04-15T21:10:28-0300 DDEBUG timer: config: 2 ms
+2022-04-15T21:10:28-0300 DEBUG Loaded plugins: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, groups-manager, needs-restarting, playground, repoclosure, repodiff, repograph, repomanage, reposync, system-upgrade
+2022-04-15T21:10:28-0300 DEBUG YUM version: 4.11.1
+2022-04-15T21:10:28-0300 DDEBUG Command: yum remove docker-cli 
+2022-04-15T21:10:28-0300 DDEBUG Installroot: /
+2022-04-15T21:10:28-0300 DDEBUG Releasever: 35
+2022-04-15T21:10:28-0300 DEBUG cachedir: /var/cache/dnf
+2022-04-15T21:10:28-0300 DDEBUG Base command: remove
+2022-04-15T21:10:28-0300 DDEBUG Extra commands: ['remove', 'docker-cli']
+2022-04-15T21:10:28-0300 DEBUG Unknown configuration option: autorefresh = 1 in /etc/yum.repos.d/_elastic.repo
+2022-04-15T21:10:28-0300 DEBUG User-Agent: constructed: 'libdnf (Fedora Linux 35; workstation; Linux.x86_64)'
+2022-04-15T21:10:28-0300 DDEBUG timer: sack setup: 216 ms
+2022-04-15T21:10:28-0300 INFO No match for argument: docker-cli
+2022-04-15T21:10:28-0300 WARNING No packages marked for removal.
+2022-04-15T21:10:28-0300 DEBUG --> Starting dependency resolution
+2022-04-15T21:10:28-0300 DEBUG --> Finished dependency resolution
+2022-04-15T21:10:28-0300 DDEBUG timer: depsolve: 14 ms
+2022-04-15T21:10:28-0300 INFO Dependencies resolved.
+2022-04-15T21:10:28-0300 INFO Nothing to do.
+2022-04-15T21:10:28-0300 INFO Complete!
+2022-04-15T21:10:28-0300 DDEBUG Cleaning up.
+2022-04-15T21:55:46-0300 INFO --- logging initialized ---
+2022-04-15T21:55:46-0300 DDEBUG timer: config: 2 ms
+2022-04-15T21:55:46-0300 DEBUG Loaded plugins: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, groups-manager, needs-restarting, playground, repoclosure, repodiff, repograph, repomanage, reposync, system-upgrade
+2022-04-15T21:55:46-0300 DEBUG DNF version: 4.11.1
+2022-04-15T21:55:46-0300 DDEBUG Command: dnf makecache --timer 
+2022-04-15T21:55:46-0300 DDEBUG Installroot: /
+2022-04-15T21:55:46-0300 DDEBUG Releasever: 35
+2022-04-15T21:55:46-0300 DEBUG cachedir: /var/cache/dnf
+2022-04-15T21:55:46-0300 DDEBUG Base command: makecache
+2022-04-15T21:55:46-0300 DDEBUG Extra commands: ['makecache', '--timer']
+2022-04-15T21:55:46-0300 DEBUG Unknown configuration option: autorefresh = 1 in /etc/yum.repos.d/_elastic.repo
+2022-04-15T21:55:47-0300 DEBUG Making cache files for all metadata files.
+2022-04-15T21:55:47-0300 INFO Metadata cache refreshed recently.
+2022-04-15T21:55:47-0300 DDEBUG Cleaning up.
+2022-04-16T15:01:30-0300 INFO --- logging initialized ---
+2022-04-16T15:01:30-0300 DDEBUG timer: config: 2 ms
+2022-04-16T15:01:30-0300 DEBUG Loaded plugins: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, groups-manager, needs-restarting, playground, repoclosure, repodiff, repograph, repomanage, reposync, system-upgrade
+2022-04-16T15:01:30-0300 DEBUG DNF version: 4.11.1
+2022-04-16T15:01:30-0300 DDEBUG Command: dnf makecache --timer 
+2022-04-16T15:01:30-0300 DDEBUG Installroot: /
+2022-04-16T15:01:30-0300 DDEBUG Releasever: 35
+2022-04-16T15:01:30-0300 DEBUG cachedir: /var/cache/dnf
+2022-04-16T15:01:30-0300 DDEBUG Base command: makecache
+2022-04-16T15:01:30-0300 DDEBUG Extra commands: ['makecache', '--timer']
+2022-04-16T15:01:30-0300 DEBUG Unknown configuration option: autorefresh = 1 in /etc/yum.repos.d/_elastic.repo
+2022-04-16T15:01:30-0300 DEBUG Making cache files for all metadata files.
+2022-04-16T15:01:30-0300 DEBUG phracek-PyCharm: has expired and will be refreshed.
+2022-04-16T15:01:30-0300 DEBUG elastic-7.x: has expired and will be refreshed.
+2022-04-16T15:01:30-0300 DEBUG isv_Rancher_stable: has expired and will be refreshed.
+2022-04-16T15:01:30-0300 DEBUG docker-ce-stable: has expired and will be refreshed.
+2022-04-16T15:01:31-0300 DEBUG fedora: has expired and will be refreshed.
+2022-04-16T15:01:31-0300 DEBUG fedora-cisco-openh264: has expired and will be refreshed.
+2022-04-16T15:01:31-0300 DEBUG fedora-modular: has expired and will be refreshed.
+2022-04-16T15:01:31-0300 DEBUG updates: has expired and will be refreshed.
+2022-04-16T15:01:31-0300 DEBUG updates-modular: has expired and will be refreshed.
+2022-04-16T15:01:31-0300 DEBUG google-chrome: has expired and will be refreshed.
+2022-04-16T15:01:31-0300 DEBUG google-chrome-unstable: has expired and will be refreshed.
+2022-04-16T15:01:31-0300 DEBUG kubernetes: has expired and will be refreshed.
+2022-04-16T15:01:31-0300 DEBUG rpmfusion-free: has expired and will be refreshed.
+2022-04-16T15:01:31-0300 DEBUG rpmfusion-free-updates: has expired and will be refreshed.
+2022-04-16T15:01:31-0300 DEBUG rpmfusion-nonfree: has expired and will be refreshed.
+2022-04-16T15:01:31-0300 DEBUG rpmfusion-nonfree-nvidia-driver: has expired and will be refreshed.
+2022-04-16T15:01:31-0300 DEBUG rpmfusion-nonfree-steam: has expired and will be refreshed.
+2022-04-16T15:01:31-0300 DEBUG rpmfusion-nonfree-updates: has expired and will be refreshed.
+2022-04-16T15:01:31-0300 DEBUG reviving: 'phracek-PyCharm' can be revived - repomd matches.
+2022-04-16T15:01:31-0300 DEBUG phracek-PyCharm: using metadata from qui 07 abr 2022 01:16:25.
+2022-04-16T15:01:31-0300 DEBUG reviving: 'elastic-7.x' can be revived - repomd matches.
+2022-04-16T15:01:31-0300 DEBUG elastic-7.x: using metadata from seg 28 mar 2022 22:47:12.
+2022-04-16T15:01:32-0300 DEBUG reviving: 'isv_Rancher_stable' can be revived - repomd matches.
+2022-04-16T15:01:32-0300 DEBUG isv_Rancher_stable: using metadata from ter 12 abr 2022 14:06:33.
+2022-04-16T15:01:32-0300 DEBUG reviving: 'docker-ce-stable' can be revived - repomd matches.
+2022-04-16T15:01:32-0300 DEBUG docker-ce-stable: using metadata from qua 23 mar 2022 23:35:23.
+2022-04-16T15:01:32-0300 DEBUG countme: no event for fedora: window already counted
+2022-04-16T15:01:33-0300 DEBUG reviving: 'fedora' can be revived - metalink checksums match.
+2022-04-16T15:01:33-0300 DEBUG fedora: using metadata from ter 26 out 2021 02:31:27.
+2022-04-16T15:01:34-0300 DEBUG reviving: 'fedora-cisco-openh264' can be revived - metalink checksums match.
+2022-04-16T15:01:34-0300 DEBUG fedora-cisco-openh264: using metadata from ter 21 set 2021 15:07:30.
+2022-04-16T15:01:34-0300 DEBUG countme: no event for fedora-modular: window already counted
+2022-04-16T15:01:35-0300 DEBUG reviving: 'fedora-modular' can be revived - metalink checksums match.
+2022-04-16T15:01:35-0300 DEBUG fedora-modular: using metadata from ter 26 out 2021 02:08:36.
+2022-04-16T15:01:35-0300 DEBUG countme: no event for updates: window already counted
+2022-04-16T15:01:35-0300 DEBUG reviving: 'updates' can be revived - metalink checksums match.
+2022-04-16T15:01:36-0300 DEBUG updates: using metadata from sex 15 abr 2022 11:30:14.
+2022-04-16T15:01:36-0300 DEBUG countme: no event for updates-modular: budget to spend: 1
+2022-04-16T15:01:36-0300 DEBUG reviving: 'updates-modular' can be revived - metalink checksums match.
+2022-04-16T15:01:36-0300 DEBUG updates-modular: using metadata from seg 04 abr 2022 21:44:03.
+2022-04-16T15:01:36-0300 DEBUG reviving: 'google-chrome' can be revived - repomd matches.
+2022-04-16T15:01:36-0300 DEBUG google-chrome: using metadata from qui 14 abr 2022 18:02:04.
+2022-04-16T15:01:36-0300 DEBUG reviving: 'google-chrome-unstable' can be revived - repomd matches.
+2022-04-16T15:01:36-0300 DEBUG google-chrome-unstable: using metadata from qui 14 abr 2022 18:02:04.
+2022-04-16T15:01:37-0300 DEBUG reviving: 'kubernetes' can be revived - repomd matches.
+2022-04-16T15:01:37-0300 DEBUG kubernetes: using metadata from seg 25 ago 1941 03:44:19.
+2022-04-16T15:01:38-0300 DEBUG reviving: 'rpmfusion-free' can be revived - metalink checksums match.
+2022-04-16T15:01:38-0300 DEBUG rpmfusion-free: using metadata from sáb 23 out 2021 18:56:55.
+2022-04-16T15:01:38-0300 DEBUG reviving: 'rpmfusion-free-updates' can be revived - metalink checksums match.
+2022-04-16T15:01:39-0300 DEBUG rpmfusion-free-updates: using metadata from qui 14 abr 2022 09:38:50.
+2022-04-16T15:01:39-0300 DEBUG reviving: 'rpmfusion-nonfree' can be revived - metalink checksums match.
+2022-04-16T15:01:39-0300 DEBUG rpmfusion-nonfree: using metadata from sáb 23 out 2021 20:27:21.
+2022-04-16T15:01:40-0300 DEBUG reviving: 'rpmfusion-nonfree-nvidia-driver' can be revived - metalink checksums match.
+2022-04-16T15:01:40-0300 DEBUG rpmfusion-nonfree-nvidia-driver: using metadata from dom 10 abr 2022 14:05:07.
+2022-04-16T15:01:40-0300 DEBUG reviving: 'rpmfusion-nonfree-steam' can be revived - metalink checksums match.
+2022-04-16T15:01:40-0300 DEBUG rpmfusion-nonfree-steam: using metadata from dom 13 fev 2022 14:48:10.
+2022-04-16T15:01:41-0300 DEBUG reviving: 'rpmfusion-nonfree-updates' can be revived - metalink checksums match.
+2022-04-16T15:01:41-0300 DEBUG rpmfusion-nonfree-updates: using metadata from qui 14 abr 2022 10:14:35.
+2022-04-16T15:01:41-0300 DEBUG User-Agent: constructed: 'libdnf (Fedora Linux 35; workstation; Linux.x86_64)'
+2022-04-16T15:01:41-0300 DDEBUG timer: sack setup: 10492 ms
+2022-04-16T15:01:41-0300 INFO Metadata cache created.
+2022-04-16T15:01:41-0300 DDEBUG Cleaning up.
+2022-04-16T16:14:30-0300 INFO --- logging initialized ---
+2022-04-16T16:14:30-0300 DDEBUG timer: config: 2 ms
+2022-04-16T16:14:30-0300 DEBUG Loaded plugins: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, groups-manager, needs-restarting, playground, repoclosure, repodiff, repograph, repomanage, reposync, system-upgrade
+2022-04-16T16:14:30-0300 DEBUG DNF version: 4.11.1
+2022-04-16T16:14:30-0300 DDEBUG Command: dnf makecache --timer 
+2022-04-16T16:14:30-0300 DDEBUG Installroot: /
+2022-04-16T16:14:30-0300 DDEBUG Releasever: 35
+2022-04-16T16:14:30-0300 DEBUG cachedir: /var/cache/dnf
+2022-04-16T16:14:30-0300 DDEBUG Base command: makecache
+2022-04-16T16:14:30-0300 DDEBUG Extra commands: ['makecache', '--timer']
+2022-04-16T16:14:30-0300 DEBUG Unknown configuration option: autorefresh = 1 in /etc/yum.repos.d/_elastic.repo
+2022-04-16T16:14:30-0300 DEBUG Making cache files for all metadata files.
+2022-04-16T16:14:30-0300 INFO Metadata cache refreshed recently.
+2022-04-16T16:14:30-0300 DDEBUG Cleaning up.
+2022-04-16T17:24:30-0300 INFO --- logging initialized ---
+2022-04-16T17:24:30-0300 DDEBUG timer: config: 2 ms
+2022-04-16T17:24:30-0300 DEBUG Loaded plugins: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, groups-manager, needs-restarting, playground, repoclosure, repodiff, repograph, repomanage, reposync, system-upgrade
+2022-04-16T17:24:30-0300 DEBUG DNF version: 4.11.1
+2022-04-16T17:24:30-0300 DDEBUG Command: dnf makecache --timer 
+2022-04-16T17:24:30-0300 DDEBUG Installroot: /
+2022-04-16T17:24:30-0300 DDEBUG Releasever: 35
+2022-04-16T17:24:30-0300 DEBUG cachedir: /var/cache/dnf
+2022-04-16T17:24:30-0300 DDEBUG Base command: makecache
+2022-04-16T17:24:30-0300 DDEBUG Extra commands: ['makecache', '--timer']
+2022-04-16T17:24:30-0300 DEBUG Unknown configuration option: autorefresh = 1 in /etc/yum.repos.d/_elastic.repo
+2022-04-16T17:24:30-0300 DEBUG Making cache files for all metadata files.
+2022-04-16T17:24:30-0300 INFO Metadata cache refreshed recently.
+2022-04-16T17:24:30-0300 DDEBUG Cleaning up.
+2022-04-21T17:54:43-0300 INFO --- logging initialized ---
+2022-04-21T17:54:43-0300 DDEBUG timer: config: 2 ms
+2022-04-21T17:54:43-0300 DEBUG Loaded plugins: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, groups-manager, needs-restarting, playground, repoclosure, repodiff, repograph, repomanage, reposync, system-upgrade
+2022-04-21T17:54:43-0300 DEBUG DNF version: 4.11.1
+2022-04-21T17:54:43-0300 DDEBUG Command: dnf makecache --timer 
+2022-04-21T17:54:43-0300 DDEBUG Installroot: /
+2022-04-21T17:54:43-0300 DDEBUG Releasever: 35
+2022-04-21T17:54:43-0300 DEBUG cachedir: /var/cache/dnf
+2022-04-21T17:54:43-0300 DDEBUG Base command: makecache
+2022-04-21T17:54:43-0300 DDEBUG Extra commands: ['makecache', '--timer']
+2022-04-21T17:54:43-0300 DEBUG Unknown configuration option: autorefresh = 1 in /etc/yum.repos.d/_elastic.repo
+2022-04-21T17:54:43-0300 DEBUG Making cache files for all metadata files.
+2022-04-21T17:54:43-0300 DEBUG phracek-PyCharm: has expired and will be refreshed.
+2022-04-21T17:54:43-0300 DEBUG elastic-7.x: has expired and will be refreshed.
+2022-04-21T17:54:43-0300 DEBUG isv_Rancher_stable: has expired and will be refreshed.
+2022-04-21T17:54:43-0300 DEBUG docker-ce-stable: has expired and will be refreshed.
+2022-04-21T17:54:43-0300 DEBUG fedora: has expired and will be refreshed.
+2022-04-21T17:54:43-0300 DEBUG fedora-cisco-openh264: has expired and will be refreshed.
+2022-04-21T17:54:43-0300 DEBUG fedora-modular: has expired and will be refreshed.
+2022-04-21T17:54:44-0300 DEBUG updates: has expired and will be refreshed.
+2022-04-21T17:54:44-0300 DEBUG updates-modular: has expired and will be refreshed.
+2022-04-21T17:54:44-0300 DEBUG google-chrome: has expired and will be refreshed.
+2022-04-21T17:54:44-0300 DEBUG google-chrome-unstable: has expired and will be refreshed.
+2022-04-21T17:54:44-0300 DEBUG kubernetes: has expired and will be refreshed.
+2022-04-21T17:54:44-0300 DEBUG rpmfusion-free: has expired and will be refreshed.
+2022-04-21T17:54:44-0300 DEBUG rpmfusion-free-updates: has expired and will be refreshed.
+2022-04-21T17:54:44-0300 DEBUG rpmfusion-nonfree: has expired and will be refreshed.
+2022-04-21T17:54:44-0300 DEBUG rpmfusion-nonfree-nvidia-driver: has expired and will be refreshed.
+2022-04-21T17:54:44-0300 DEBUG rpmfusion-nonfree-steam: has expired and will be refreshed.
+2022-04-21T17:54:44-0300 DEBUG rpmfusion-nonfree-updates: has expired and will be refreshed.
+2022-04-21T17:54:44-0300 DEBUG reviving: failed for 'phracek-PyCharm', mismatched repomd.
+2022-04-21T17:54:44-0300 DEBUG repo: downloading from remote: phracek-PyCharm
+2022-04-21T17:54:45-0300 DEBUG phracek-PyCharm: using metadata from qui 21 abr 2022 01:01:01.
+2022-04-21T17:54:45-0300 DEBUG reviving: failed for 'elastic-7.x', mismatched repomd.
+2022-04-21T17:54:45-0300 DEBUG repo: downloading from remote: elastic-7.x
+2022-04-21T17:54:58-0300 DEBUG elastic-7.x: using metadata from qua 20 abr 2022 01:04:06.
+2022-04-21T17:54:58-0300 DEBUG reviving: failed for 'isv_Rancher_stable', mismatched repomd.
+2022-04-21T17:54:58-0300 DEBUG repo: downloading from remote: isv_Rancher_stable
+2022-04-21T17:55:01-0300 DEBUG isv_Rancher_stable: using metadata from qua 20 abr 2022 14:40:32.
+2022-04-21T17:55:01-0300 DEBUG reviving: 'docker-ce-stable' can be revived - repomd matches.
+2022-04-21T17:55:01-0300 DEBUG docker-ce-stable: using metadata from qua 23 mar 2022 23:35:23.
+2022-04-21T17:55:01-0300 DEBUG countme: event triggered for fedora: bucket 3
+2022-04-21T17:55:02-0300 DEBUG reviving: 'fedora' can be revived - metalink checksums match.
+2022-04-21T17:55:02-0300 DEBUG fedora: using metadata from ter 26 out 2021 02:31:27.
+2022-04-21T17:55:02-0300 DEBUG reviving: 'fedora-cisco-openh264' can be revived - metalink checksums match.
+2022-04-21T17:55:02-0300 DEBUG fedora-cisco-openh264: using metadata from ter 21 set 2021 15:07:30.
+2022-04-21T17:55:02-0300 DEBUG countme: event triggered for fedora-modular: bucket 3
+2022-04-21T17:55:03-0300 DEBUG reviving: 'fedora-modular' can be revived - metalink checksums match.
+2022-04-21T17:55:03-0300 DEBUG fedora-modular: using metadata from ter 26 out 2021 02:08:36.
+2022-04-21T17:55:03-0300 DEBUG countme: no event for updates: budget to spend: 1
+2022-04-21T17:55:03-0300 DEBUG reviving: failed for 'updates', mismatched sha256 sum.
+2022-04-21T17:55:03-0300 DEBUG repo: downloading from remote: updates
+2022-04-21T17:55:03-0300 DEBUG countme: event triggered for updates: bucket 3
+2022-04-21T17:55:26-0300 DEBUG updates: using metadata from qua 20 abr 2022 16:01:36.
+2022-04-21T17:55:26-0300 DEBUG countme: event triggered for updates-modular: bucket 3
+2022-04-21T17:55:27-0300 DEBUG reviving: 'updates-modular' can be revived - metalink checksums match.
+2022-04-21T17:55:27-0300 DEBUG updates-modular: using metadata from seg 04 abr 2022 21:44:03.
+2022-04-21T17:55:27-0300 DEBUG reviving: failed for 'google-chrome', mismatched repomd.
+2022-04-21T17:55:27-0300 DEBUG repo: downloading from remote: google-chrome
+2022-04-21T17:55:27-0300 DEBUG google-chrome: using metadata from qui 21 abr 2022 13:28:01.
+2022-04-21T17:55:27-0300 DEBUG reviving: failed for 'google-chrome-unstable', mismatched repomd.
+2022-04-21T17:55:27-0300 DEBUG repo: downloading from remote: google-chrome-unstable
+2022-04-21T17:55:28-0300 DEBUG google-chrome-unstable: using metadata from qui 21 abr 2022 13:28:01.
+2022-04-21T17:55:29-0300 DEBUG reviving: failed for 'kubernetes', mismatched repomd.
+2022-04-21T17:55:29-0300 DEBUG repo: downloading from remote: kubernetes
+2022-04-21T17:55:30-0300 DEBUG kubernetes: using metadata from seg 26 set 2016 02:26:57.
+2022-04-21T17:55:31-0300 DEBUG reviving: 'rpmfusion-free' can be revived - metalink checksums match.
+2022-04-21T17:55:31-0300 DEBUG rpmfusion-free: using metadata from sáb 23 out 2021 18:56:55.
+2022-04-21T17:55:31-0300 DEBUG reviving: failed for 'rpmfusion-free-updates', mismatched sha256 sum.
+2022-04-21T17:55:31-0300 DEBUG repo: downloading from remote: rpmfusion-free-updates
+2022-04-21T17:55:34-0300 DEBUG rpmfusion-free-updates: using metadata from ter 19 abr 2022 08:16:29.
+2022-04-21T17:55:34-0300 DEBUG reviving: 'rpmfusion-nonfree' can be revived - metalink checksums match.
+2022-04-21T17:55:34-0300 DEBUG rpmfusion-nonfree: using metadata from sáb 23 out 2021 20:27:21.
+2022-04-21T17:55:35-0300 DEBUG reviving: 'rpmfusion-nonfree-nvidia-driver' can be revived - metalink checksums match.
+2022-04-21T17:55:35-0300 DEBUG rpmfusion-nonfree-nvidia-driver: using metadata from dom 10 abr 2022 14:05:07.
+2022-04-21T17:55:36-0300 DEBUG reviving: 'rpmfusion-nonfree-steam' can be revived - metalink checksums match.
+2022-04-21T17:55:36-0300 DEBUG rpmfusion-nonfree-steam: using metadata from dom 13 fev 2022 14:48:10.
+2022-04-21T17:55:36-0300 DEBUG reviving: failed for 'rpmfusion-nonfree-updates', mismatched sha256 sum.
+2022-04-21T17:55:36-0300 DEBUG repo: downloading from remote: rpmfusion-nonfree-updates
+2022-04-21T17:55:38-0300 DEBUG rpmfusion-nonfree-updates: using metadata from ter 19 abr 2022 10:05:45.
+2022-04-21T17:55:38-0300 DEBUG User-Agent: constructed: 'libdnf (Fedora Linux 35; workstation; Linux.x86_64)'
+2022-04-21T17:55:40-0300 DDEBUG timer: sack setup: 56659 ms
+2022-04-21T17:55:40-0300 DEBUG Completion plugin: Generating completion cache...
+2022-04-21T17:55:41-0300 INFO Metadata cache created.
+2022-04-21T17:55:41-0300 DDEBUG Cleaning up.
+2022-04-21T18:23:42-0300 INFO --- logging initialized ---
+2022-04-21T18:23:42-0300 DDEBUG timer: config: 11 ms
+2022-04-21T18:23:42-0300 DEBUG Loaded plugins: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, groups-manager, needs-restarting, playground, repoclosure, repodiff, repograph, repomanage, reposync, system-upgrade
+2022-04-21T18:23:42-0300 DEBUG DNF version: 4.11.1
+2022-04-21T18:23:42-0300 DDEBUG Command: dnf system-upgrade upgrade 
+2022-04-21T18:23:42-0300 DDEBUG Installroot: /
+2022-04-21T18:23:42-0300 DDEBUG Releasever: 35
+2022-04-21T18:23:42-0300 DEBUG cachedir: /var/cache/dnf
+2022-04-21T18:23:42-0300 DDEBUG Base command: system-upgrade
+2022-04-21T18:23:42-0300 DDEBUG Extra commands: ['system-upgrade', 'upgrade']
+2022-04-21T18:23:42-0300 INFO trigger file does not exist. exiting quietly.
+2022-04-21T18:23:42-0300 DDEBUG Cleaning up.
+2022-04-24T12:57:20-0300 INFO --- logging initialized ---
+2022-04-24T12:57:20-0300 DDEBUG timer: config: 3 ms
+2022-04-24T12:57:20-0300 DEBUG Loaded plugins: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, groups-manager, needs-restarting, playground, repoclosure, repodiff, repograph, repomanage, reposync, system-upgrade
+2022-04-24T12:57:20-0300 DEBUG DNF version: 4.11.1
+2022-04-24T12:57:20-0300 DDEBUG Command: dnf -y install --disablerepo=* /tmp/akmods.Aar4S112/results/kmod-nvidia-5.16.20-200.fc35.x86_64-510.60.02-1.fc35.x86_64.rpm 
+2022-04-24T12:57:20-0300 DDEBUG Installroot: /
+2022-04-24T12:57:20-0300 DDEBUG Releasever: 35
+2022-04-24T12:57:20-0300 DEBUG cachedir: /var/cache/dnf
+2022-04-24T12:57:20-0300 DDEBUG Base command: install
+2022-04-24T12:57:20-0300 DDEBUG Extra commands: ['-y', 'install', '--disablerepo=*', '/tmp/akmods.Aar4S112/results/kmod-nvidia-5.16.20-200.fc35.x86_64-510.60.02-1.fc35.x86_64.rpm']
+2022-04-24T12:57:20-0300 DEBUG Unknown configuration option: autorefresh = 1 in /etc/yum.repos.d/_elastic.repo
+2022-04-24T12:57:20-0300 DEBUG User-Agent: constructed: 'libdnf (Fedora Linux 35; workstation; Linux.x86_64)'
+2022-04-24T12:57:22-0300 DDEBUG timer: sack setup: 1487 ms
+2022-04-24T12:57:22-0300 DEBUG --> Starting dependency resolution
+2022-04-24T12:57:22-0300 DEBUG ---> Package kmod-nvidia-5.16.20-200.fc35.x86_64.x86_64 3:510.60.02-1.fc35 will be installed
+2022-04-24T12:57:22-0300 DEBUG --> Finished dependency resolution
+2022-04-24T12:57:22-0300 DDEBUG timer: depsolve: 28 ms
+2022-04-24T12:57:22-0300 INFO Dependencies resolved.
+2022-04-24T12:57:22-0300 INFO ================================================================================
+ Package                           Arch   Version            Repository    Size
+================================================================================
+Installing:
+ kmod-nvidia-5.16.20-200.fc35.x86_64
+                                   x86_64 3:510.60.02-1.fc35 @commandline  37 M
+
+Transaction Summary
+================================================================================
+Install  1 Package
+
+2022-04-24T12:57:22-0300 INFO Total size: 37 M
+2022-04-24T12:57:22-0300 INFO Installed size: 100 M
+2022-04-24T12:57:22-0300 INFO Downloading Packages:
+2022-04-24T12:57:22-0300 INFO Running transaction check
+2022-04-24T12:57:22-0300 INFO Transaction check succeeded.
+2022-04-24T12:57:22-0300 INFO Running transaction test
+2022-04-24T12:57:22-0300 INFO Transaction test succeeded.
+2022-04-24T12:57:22-0300 DDEBUG timer: transaction test: 409 ms
+2022-04-24T12:57:22-0300 INFO Running transaction
+2022-04-24T12:57:22-0300 DDEBUG RPM transaction start.
+2022-04-24T12:57:33-0300 DDEBUG RPM transaction over.
+2022-04-24T12:57:33-0300 DDEBUG timer: verify transaction: 209 ms
+2022-04-24T12:57:33-0300 DDEBUG timer: transaction: 11091 ms
+2022-04-24T12:57:33-0300 DEBUG Completion plugin: Generating completion cache...
+2022-04-24T12:57:33-0300 DEBUG Installed: kmod-nvidia-5.16.20-200.fc35.x86_64-3:510.60.02-1.fc35.x86_64
+2022-04-24T12:57:33-0300 INFO Complete!
+2022-04-24T12:57:33-0300 DDEBUG Cleaning up.
+2022-04-24T13:32:26-0300 INFO --- logging initialized ---
+2022-04-24T13:32:26-0300 DDEBUG timer: config: 2 ms
+2022-04-24T13:32:26-0300 DEBUG Loaded plugins: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, groups-manager, needs-restarting, playground, repoclosure, repodiff, repograph, repomanage, reposync, system-upgrade
+2022-04-24T13:32:26-0300 DEBUG DNF version: 4.11.1
+2022-04-24T13:32:26-0300 DDEBUG Command: dnf makecache --timer 
+2022-04-24T13:32:26-0300 DDEBUG Installroot: /
+2022-04-24T13:32:26-0300 DDEBUG Releasever: 35
+2022-04-24T13:32:26-0300 DEBUG cachedir: /var/cache/dnf
+2022-04-24T13:32:26-0300 DDEBUG Base command: makecache
+2022-04-24T13:32:26-0300 DDEBUG Extra commands: ['makecache', '--timer']
+2022-04-24T13:32:26-0300 DEBUG Unknown configuration option: autorefresh = 1 in /etc/yum.repos.d/_elastic.repo
+2022-04-24T13:32:26-0300 DEBUG Making cache files for all metadata files.
+2022-04-24T13:32:26-0300 DEBUG phracek-PyCharm: has expired and will be refreshed.
+2022-04-24T13:32:26-0300 DEBUG elastic-7.x: has expired and will be refreshed.
+2022-04-24T13:32:26-0300 DEBUG isv_Rancher_stable: has expired and will be refreshed.
+2022-04-24T13:32:26-0300 DEBUG docker-ce-stable: has expired and will be refreshed.
+2022-04-24T13:32:26-0300 DEBUG fedora: has expired and will be refreshed.
+2022-04-24T13:32:26-0300 DEBUG fedora-cisco-openh264: has expired and will be refreshed.
+2022-04-24T13:32:26-0300 DEBUG fedora-modular: has expired and will be refreshed.
+2022-04-24T13:32:26-0300 DEBUG updates: has expired and will be refreshed.
+2022-04-24T13:32:26-0300 DEBUG updates-modular: has expired and will be refreshed.
+2022-04-24T13:32:26-0300 DEBUG google-chrome: has expired and will be refreshed.
+2022-04-24T13:32:26-0300 DEBUG google-chrome-unstable: has expired and will be refreshed.
+2022-04-24T13:32:26-0300 DEBUG kubernetes: has expired and will be refreshed.
+2022-04-24T13:32:26-0300 DEBUG rpmfusion-free: has expired and will be refreshed.
+2022-04-24T13:32:26-0300 DEBUG rpmfusion-free-updates: has expired and will be refreshed.
+2022-04-24T13:32:26-0300 DEBUG rpmfusion-nonfree: has expired and will be refreshed.
+2022-04-24T13:32:26-0300 DEBUG rpmfusion-nonfree-nvidia-driver: has expired and will be refreshed.
+2022-04-24T13:32:26-0300 DEBUG rpmfusion-nonfree-steam: has expired and will be refreshed.
+2022-04-24T13:32:26-0300 DEBUG rpmfusion-nonfree-updates: has expired and will be refreshed.
+2022-04-24T13:32:26-0300 DEBUG reviving: 'phracek-PyCharm' can be revived - repomd matches.
+2022-04-24T13:32:26-0300 DEBUG phracek-PyCharm: using metadata from qui 21 abr 2022 01:01:01.
+2022-04-24T13:32:27-0300 DEBUG reviving: 'elastic-7.x' can be revived - repomd matches.
+2022-04-24T13:32:27-0300 DEBUG elastic-7.x: using metadata from qua 20 abr 2022 01:04:06.
+2022-04-24T13:32:27-0300 DEBUG reviving: failed for 'isv_Rancher_stable', mismatched repomd.
+2022-04-24T13:32:27-0300 DEBUG repo: downloading from remote: isv_Rancher_stable
+2022-04-24T13:32:31-0300 DEBUG isv_Rancher_stable: using metadata from sex 22 abr 2022 15:12:58.
+2022-04-24T13:32:32-0300 DEBUG reviving: 'docker-ce-stable' can be revived - repomd matches.
+2022-04-24T13:32:32-0300 DEBUG docker-ce-stable: using metadata from qua 23 mar 2022 23:35:23.
+2022-04-24T13:32:32-0300 DEBUG countme: no event for fedora: window already counted
+2022-04-24T13:32:32-0300 DEBUG reviving: 'fedora' can be revived - metalink checksums match.
+2022-04-24T13:32:33-0300 DEBUG fedora: using metadata from ter 26 out 2021 02:31:27.
+2022-04-24T13:32:33-0300 DEBUG reviving: 'fedora-cisco-openh264' can be revived - metalink checksums match.
+2022-04-24T13:32:33-0300 DEBUG fedora-cisco-openh264: using metadata from ter 21 set 2021 15:07:30.
+2022-04-24T13:32:33-0300 DEBUG countme: no event for fedora-modular: window already counted
+2022-04-24T13:32:34-0300 DEBUG reviving: 'fedora-modular' can be revived - metalink checksums match.
+2022-04-24T13:32:34-0300 DEBUG fedora-modular: using metadata from ter 26 out 2021 02:08:36.
+2022-04-24T13:32:34-0300 DEBUG countme: no event for updates: window already counted
+2022-04-24T13:32:35-0300 DEBUG reviving: failed for 'updates', mismatched sha256 sum.
+2022-04-24T13:32:35-0300 DEBUG repo: downloading from remote: updates
+2022-04-24T13:32:35-0300 DEBUG countme: no event for updates: window already counted
+2022-04-24T13:32:59-0300 DEBUG updates: using metadata from sáb 23 abr 2022 15:56:20.
+2022-04-24T13:32:59-0300 DEBUG countme: no event for updates-modular: window already counted
+2022-04-24T13:33:00-0300 DEBUG reviving: 'updates-modular' can be revived - metalink checksums match.
+2022-04-24T13:33:00-0300 DEBUG updates-modular: using metadata from seg 04 abr 2022 21:44:03.
+2022-04-24T13:33:00-0300 DEBUG reviving: 'google-chrome' can be revived - repomd matches.
+2022-04-24T13:33:00-0300 DEBUG google-chrome: using metadata from qui 21 abr 2022 13:28:01.
+2022-04-24T13:33:00-0300 DEBUG reviving: 'google-chrome-unstable' can be revived - repomd matches.
+2022-04-24T13:33:00-0300 DEBUG google-chrome-unstable: using metadata from qui 21 abr 2022 13:28:01.
+2022-04-24T13:33:01-0300 DEBUG reviving: 'kubernetes' can be revived - repomd matches.
+2022-04-24T13:33:01-0300 DEBUG kubernetes: using metadata from seg 26 set 2016 02:26:57.
+2022-04-24T13:33:02-0300 DEBUG reviving: 'rpmfusion-free' can be revived - metalink checksums match.
+2022-04-24T13:33:02-0300 DEBUG rpmfusion-free: using metadata from sáb 23 out 2021 18:56:55.
+2022-04-24T13:33:02-0300 DEBUG reviving: 'rpmfusion-free-updates' can be revived - metalink checksums match.
+2022-04-24T13:33:02-0300 DEBUG rpmfusion-free-updates: using metadata from ter 19 abr 2022 08:16:29.
+2022-04-24T13:33:03-0300 DEBUG reviving: 'rpmfusion-nonfree' can be revived - metalink checksums match.
+2022-04-24T13:33:03-0300 DEBUG rpmfusion-nonfree: using metadata from sáb 23 out 2021 20:27:21.
+2022-04-24T13:33:03-0300 DEBUG reviving: 'rpmfusion-nonfree-nvidia-driver' can be revived - metalink checksums match.
+2022-04-24T13:33:03-0300 DEBUG rpmfusion-nonfree-nvidia-driver: using metadata from dom 10 abr 2022 14:05:07.
+2022-04-24T13:33:04-0300 DEBUG reviving: 'rpmfusion-nonfree-steam' can be revived - metalink checksums match.
+2022-04-24T13:33:04-0300 DEBUG rpmfusion-nonfree-steam: using metadata from dom 13 fev 2022 14:48:10.
+2022-04-24T13:33:05-0300 DEBUG reviving: 'rpmfusion-nonfree-updates' can be revived - metalink checksums match.
+2022-04-24T13:33:05-0300 DEBUG rpmfusion-nonfree-updates: using metadata from ter 19 abr 2022 10:05:45.
+2022-04-24T13:33:05-0300 DEBUG User-Agent: constructed: 'libdnf (Fedora Linux 35; workstation; Linux.x86_64)'
+2022-04-24T13:33:06-0300 DDEBUG timer: sack setup: 39584 ms
+2022-04-24T13:33:06-0300 DEBUG Completion plugin: Generating completion cache...
+2022-04-24T13:33:06-0300 INFO Metadata cache created.
+2022-04-24T13:33:06-0300 DDEBUG Cleaning up.
+2022-04-24T14:14:06-0300 INFO --- logging initialized ---
+2022-04-24T14:14:06-0300 DDEBUG timer: config: 2 ms
+2022-04-24T14:14:06-0300 DEBUG Loaded plugins: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, groups-manager, needs-restarting, playground, repoclosure, repodiff, repograph, repomanage, reposync, system-upgrade
+2022-04-24T14:14:06-0300 DEBUG YUM version: 4.11.1
+2022-04-24T14:14:06-0300 DDEBUG Command: yum remove vscode 
+2022-04-24T14:14:06-0300 DDEBUG Installroot: /
+2022-04-24T14:14:06-0300 DDEBUG Releasever: 35
+2022-04-24T14:14:06-0300 DEBUG cachedir: /var/cache/dnf
+2022-04-24T14:14:06-0300 DDEBUG Base command: remove
+2022-04-24T14:14:06-0300 DDEBUG Extra commands: ['remove', 'vscode']
+2022-04-24T14:14:06-0300 DEBUG Unknown configuration option: autorefresh = 1 in /etc/yum.repos.d/_elastic.repo
+2022-04-24T14:14:06-0300 DEBUG User-Agent: constructed: 'libdnf (Fedora Linux 35; workstation; Linux.x86_64)'
+2022-04-24T14:14:06-0300 DDEBUG timer: sack setup: 211 ms
+2022-04-24T14:14:06-0300 INFO No match for argument: vscode
+2022-04-24T14:14:06-0300 WARNING No packages marked for removal.
+2022-04-24T14:14:06-0300 DEBUG --> Starting dependency resolution
+2022-04-24T14:14:06-0300 DEBUG --> Finished dependency resolution
+2022-04-24T14:14:06-0300 DDEBUG timer: depsolve: 14 ms
+2022-04-24T14:14:06-0300 INFO Dependencies resolved.
+2022-04-24T14:14:06-0300 INFO Nothing to do.
+2022-04-24T14:14:06-0300 INFO Complete!
+2022-04-24T14:14:06-0300 DDEBUG Cleaning up.
+2022-04-24T14:18:49-0300 INFO --- logging initialized ---
+2022-04-24T14:18:49-0300 DDEBUG timer: config: 2 ms
+2022-04-24T14:18:49-0300 DEBUG Loaded plugins: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, groups-manager, needs-restarting, playground, repoclosure, repodiff, repograph, repomanage, reposync, system-upgrade
+2022-04-24T14:18:49-0300 DEBUG DNF version: 4.11.1
+2022-04-24T14:18:49-0300 DDEBUG Command: dnf remove vscode 
+2022-04-24T14:18:49-0300 DDEBUG Installroot: /
+2022-04-24T14:18:49-0300 DDEBUG Releasever: 35
+2022-04-24T14:18:49-0300 DEBUG cachedir: /var/cache/dnf
+2022-04-24T14:18:49-0300 DDEBUG Base command: remove
+2022-04-24T14:18:49-0300 DDEBUG Extra commands: ['remove', 'vscode']
+2022-04-24T14:18:49-0300 DEBUG Unknown configuration option: autorefresh = 1 in /etc/yum.repos.d/_elastic.repo
+2022-04-24T14:18:49-0300 DEBUG User-Agent: constructed: 'libdnf (Fedora Linux 35; workstation; Linux.x86_64)'
+2022-04-24T14:18:49-0300 DDEBUG timer: sack setup: 217 ms
+2022-04-24T14:18:49-0300 INFO No match for argument: vscode
+2022-04-24T14:18:49-0300 WARNING No packages marked for removal.
+2022-04-24T14:18:49-0300 DEBUG --> Starting dependency resolution
+2022-04-24T14:18:49-0300 DEBUG --> Finished dependency resolution
+2022-04-24T14:18:49-0300 DDEBUG timer: depsolve: 14 ms
+2022-04-24T14:18:49-0300 INFO Dependencies resolved.
+2022-04-24T14:18:49-0300 INFO Nothing to do.
+2022-04-24T14:18:49-0300 INFO Complete!
+2022-04-24T14:18:49-0300 DDEBUG Cleaning up.
+2022-04-24T14:40:26-0300 INFO --- logging initialized ---
+2022-04-24T14:40:26-0300 DDEBUG timer: config: 2 ms
+2022-04-24T14:40:26-0300 DEBUG Loaded plugins: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, groups-manager, needs-restarting, playground, repoclosure, repodiff, repograph, repomanage, reposync, system-upgrade
+2022-04-24T14:40:26-0300 DEBUG DNF version: 4.11.1
+2022-04-24T14:40:26-0300 DDEBUG Command: dnf makecache --timer 
+2022-04-24T14:40:26-0300 DDEBUG Installroot: /
+2022-04-24T14:40:26-0300 DDEBUG Releasever: 35
+2022-04-24T14:40:26-0300 DEBUG cachedir: /var/cache/dnf
+2022-04-24T14:40:26-0300 DDEBUG Base command: makecache
+2022-04-24T14:40:26-0300 DDEBUG Extra commands: ['makecache', '--timer']
+2022-04-24T14:40:26-0300 DEBUG Unknown configuration option: autorefresh = 1 in /etc/yum.repos.d/_elastic.repo
+2022-04-24T14:40:26-0300 DEBUG Making cache files for all metadata files.
+2022-04-24T14:40:26-0300 INFO Metadata cache refreshed recently.
+2022-04-24T14:40:26-0300 DDEBUG Cleaning up.
+2022-04-24T16:08:26-0300 INFO --- logging initialized ---
+2022-04-24T16:08:26-0300 DDEBUG timer: config: 2 ms
+2022-04-24T16:08:26-0300 DEBUG Loaded plugins: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, groups-manager, needs-restarting, playground, repoclosure, repodiff, repograph, repomanage, reposync, system-upgrade
+2022-04-24T16:08:26-0300 DEBUG DNF version: 4.11.1
+2022-04-24T16:08:26-0300 DDEBUG Command: dnf makecache --timer 
+2022-04-24T16:08:26-0300 DDEBUG Installroot: /
+2022-04-24T16:08:26-0300 DDEBUG Releasever: 35
+2022-04-24T16:08:26-0300 DEBUG cachedir: /var/cache/dnf
+2022-04-24T16:08:26-0300 DDEBUG Base command: makecache
+2022-04-24T16:08:26-0300 DDEBUG Extra commands: ['makecache', '--timer']
+2022-04-24T16:08:26-0300 DEBUG Unknown configuration option: autorefresh = 1 in /etc/yum.repos.d/_elastic.repo
+2022-04-24T16:08:26-0300 DEBUG Making cache files for all metadata files.
+2022-04-24T16:08:26-0300 INFO Metadata cache refreshed recently.
+2022-04-24T16:08:26-0300 DDEBUG Cleaning up.
+2022-04-24T18:01:26-0300 INFO --- logging initialized ---
+2022-04-24T18:01:26-0300 DDEBUG timer: config: 2 ms
+2022-04-24T18:01:26-0300 DEBUG Loaded plugins: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, groups-manager, needs-restarting, playground, repoclosure, repodiff, repograph, repomanage, reposync, system-upgrade
+2022-04-24T18:01:26-0300 DEBUG DNF version: 4.11.1
+2022-04-24T18:01:26-0300 DDEBUG Command: dnf makecache --timer 
+2022-04-24T18:01:26-0300 DDEBUG Installroot: /
+2022-04-24T18:01:26-0300 DDEBUG Releasever: 35
+2022-04-24T18:01:26-0300 DEBUG cachedir: /var/cache/dnf
+2022-04-24T18:01:26-0300 DDEBUG Base command: makecache
+2022-04-24T18:01:26-0300 DDEBUG Extra commands: ['makecache', '--timer']
+2022-04-24T18:01:26-0300 DEBUG Unknown configuration option: autorefresh = 1 in /etc/yum.repos.d/_elastic.repo
+2022-04-24T18:01:26-0300 DEBUG Making cache files for all metadata files.
+2022-04-24T18:01:26-0300 DEBUG phracek-PyCharm: has expired and will be refreshed.
+2022-04-24T18:01:26-0300 DEBUG elastic-7.x: has expired and will be refreshed.
+2022-04-24T18:01:26-0300 DEBUG isv_Rancher_stable: has expired and will be refreshed.
+2022-04-24T18:01:26-0300 DEBUG docker-ce-stable: has expired and will be refreshed.
+2022-04-24T18:01:26-0300 DEBUG fedora: has expired and will be refreshed.
+2022-04-24T18:01:26-0300 DEBUG fedora-cisco-openh264: has expired and will be refreshed.
+2022-04-24T18:01:26-0300 DEBUG fedora-modular: has expired and will be refreshed.
+2022-04-24T18:01:26-0300 DEBUG updates: has expired and will be refreshed.
+2022-04-24T18:01:26-0300 DEBUG updates-modular: has expired and will be refreshed.
+2022-04-24T18:01:26-0300 DEBUG google-chrome: has expired and will be refreshed.
+2022-04-24T18:01:26-0300 DEBUG google-chrome-unstable: has expired and will be refreshed.
+2022-04-24T18:01:26-0300 DEBUG kubernetes: has expired and will be refreshed.
+2022-04-24T18:01:26-0300 DEBUG rpmfusion-free: has expired and will be refreshed.
+2022-04-24T18:01:26-0300 DEBUG rpmfusion-free-updates: has expired and will be refreshed.
+2022-04-24T18:01:26-0300 DEBUG rpmfusion-nonfree: has expired and will be refreshed.
+2022-04-24T18:01:26-0300 DEBUG rpmfusion-nonfree-nvidia-driver: has expired and will be refreshed.
+2022-04-24T18:01:26-0300 DEBUG rpmfusion-nonfree-steam: has expired and will be refreshed.
+2022-04-24T18:01:26-0300 DEBUG rpmfusion-nonfree-updates: has expired and will be refreshed.
+2022-04-24T18:01:27-0300 DEBUG reviving: 'phracek-PyCharm' can be revived - repomd matches.
+2022-04-24T18:01:27-0300 DEBUG phracek-PyCharm: using metadata from qui 21 abr 2022 01:01:01.
+2022-04-24T18:01:27-0300 DEBUG reviving: 'elastic-7.x' can be revived - repomd matches.
+2022-04-24T18:01:27-0300 DEBUG elastic-7.x: using metadata from qua 20 abr 2022 01:04:06.
+2022-04-24T18:01:28-0300 DEBUG reviving: 'isv_Rancher_stable' can be revived - repomd matches.
+2022-04-24T18:01:28-0300 DEBUG isv_Rancher_stable: using metadata from sex 22 abr 2022 15:12:58.
+2022-04-24T18:01:28-0300 DEBUG reviving: 'docker-ce-stable' can be revived - repomd matches.
+2022-04-24T18:01:28-0300 DEBUG docker-ce-stable: using metadata from qua 23 mar 2022 23:35:23.
+2022-04-24T18:01:28-0300 DEBUG countme: no event for fedora: window already counted
+2022-04-24T18:01:29-0300 DEBUG reviving: 'fedora' can be revived - metalink checksums match.
+2022-04-24T18:01:29-0300 DEBUG fedora: using metadata from ter 26 out 2021 02:31:27.
+2022-04-24T18:01:30-0300 DEBUG reviving: 'fedora-cisco-openh264' can be revived - metalink checksums match.
+2022-04-24T18:01:30-0300 DEBUG fedora-cisco-openh264: using metadata from ter 21 set 2021 15:07:30.
+2022-04-24T18:01:30-0300 DEBUG countme: no event for fedora-modular: window already counted
+2022-04-24T18:01:30-0300 DEBUG reviving: 'fedora-modular' can be revived - metalink checksums match.
+2022-04-24T18:01:30-0300 DEBUG fedora-modular: using metadata from ter 26 out 2021 02:08:36.
+2022-04-24T18:01:30-0300 DEBUG countme: no event for updates: window already counted
+2022-04-24T18:01:31-0300 DEBUG reviving: 'updates' can be revived - metalink checksums match.
+2022-04-24T18:01:31-0300 DEBUG updates: using metadata from sáb 23 abr 2022 15:56:20.
+2022-04-24T18:01:31-0300 DEBUG countme: no event for updates-modular: window already counted
+2022-04-24T18:01:32-0300 DEBUG reviving: 'updates-modular' can be revived - metalink checksums match.
+2022-04-24T18:01:32-0300 DEBUG updates-modular: using metadata from seg 04 abr 2022 21:44:03.
+2022-04-24T18:01:32-0300 DEBUG reviving: 'google-chrome' can be revived - repomd matches.
+2022-04-24T18:01:32-0300 DEBUG google-chrome: using metadata from qui 21 abr 2022 13:28:01.
+2022-04-24T18:01:33-0300 DEBUG reviving: 'google-chrome-unstable' can be revived - repomd matches.
+2022-04-24T18:01:33-0300 DEBUG google-chrome-unstable: using metadata from qui 21 abr 2022 13:28:01.
+2022-04-24T18:01:36-0300 DEBUG reviving: 'kubernetes' can be revived - repomd matches.
+2022-04-24T18:01:36-0300 DEBUG kubernetes: using metadata from seg 26 set 2016 02:26:57.
+2022-04-24T18:01:37-0300 DEBUG reviving: 'rpmfusion-free' can be revived - metalink checksums match.
+2022-04-24T18:01:37-0300 DEBUG rpmfusion-free: using metadata from sáb 23 out 2021 18:56:55.
+2022-04-24T18:01:38-0300 DEBUG reviving: failed for 'rpmfusion-free-updates', mismatched sha256 sum.
+2022-04-24T18:01:38-0300 DEBUG repo: downloading from remote: rpmfusion-free-updates
+2022-04-24T18:01:40-0300 DEBUG rpmfusion-free-updates: using metadata from ter 19 abr 2022 08:16:29.
+2022-04-24T18:01:41-0300 DEBUG reviving: 'rpmfusion-nonfree' can be revived - metalink checksums match.
+2022-04-24T18:01:41-0300 DEBUG rpmfusion-nonfree: using metadata from sáb 23 out 2021 20:27:21.
+2022-04-24T18:01:41-0300 DEBUG reviving: 'rpmfusion-nonfree-nvidia-driver' can be revived - metalink checksums match.
+2022-04-24T18:01:41-0300 DEBUG rpmfusion-nonfree-nvidia-driver: using metadata from dom 10 abr 2022 14:05:07.
+2022-04-24T18:01:42-0300 DEBUG reviving: 'rpmfusion-nonfree-steam' can be revived - metalink checksums match.
+2022-04-24T18:01:42-0300 DEBUG rpmfusion-nonfree-steam: using metadata from dom 13 fev 2022 14:48:10.
+2022-04-24T18:01:43-0300 DEBUG reviving: failed for 'rpmfusion-nonfree-updates', mismatched sha256 sum.
+2022-04-24T18:01:43-0300 DEBUG repo: downloading from remote: rpmfusion-nonfree-updates
+2022-04-24T18:01:45-0300 DEBUG rpmfusion-nonfree-updates: using metadata from dom 24 abr 2022 14:51:55.
+2022-04-24T18:01:45-0300 DEBUG User-Agent: constructed: 'libdnf (Fedora Linux 35; workstation; Linux.x86_64)'
+2022-04-24T18:01:45-0300 DDEBUG timer: sack setup: 18918 ms
+2022-04-24T18:01:45-0300 DEBUG Completion plugin: Generating completion cache...
+2022-04-24T18:01:45-0300 INFO Metadata cache created.
+2022-04-24T18:01:45-0300 DDEBUG Cleaning up.
+2022-04-25T10:58:21-0300 INFO --- logging initialized ---
+2022-04-25T10:58:21-0300 DDEBUG timer: config: 2 ms
+2022-04-25T10:58:21-0300 DEBUG Loaded plugins: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, groups-manager, needs-restarting, playground, repoclosure, repodiff, repograph, repomanage, reposync, system-upgrade
+2022-04-25T10:58:21-0300 DEBUG DNF version: 4.11.1
+2022-04-25T10:58:21-0300 DDEBUG Command: dnf makecache --timer 
+2022-04-25T10:58:21-0300 DDEBUG Installroot: /
+2022-04-25T10:58:21-0300 DDEBUG Releasever: 35
+2022-04-25T10:58:21-0300 DEBUG cachedir: /var/cache/dnf
+2022-04-25T10:58:21-0300 DDEBUG Base command: makecache
+2022-04-25T10:58:21-0300 DDEBUG Extra commands: ['makecache', '--timer']
+2022-04-25T10:58:21-0300 DEBUG Unknown configuration option: autorefresh = 1 in /etc/yum.repos.d/_elastic.repo
+2022-04-25T10:58:21-0300 DEBUG Making cache files for all metadata files.
+2022-04-25T10:58:21-0300 DEBUG phracek-PyCharm: has expired and will be refreshed.
+2022-04-25T10:58:21-0300 DEBUG elastic-7.x: has expired and will be refreshed.
+2022-04-25T10:58:21-0300 DEBUG isv_Rancher_stable: has expired and will be refreshed.
+2022-04-25T10:58:21-0300 DEBUG docker-ce-stable: has expired and will be refreshed.
+2022-04-25T10:58:21-0300 DEBUG fedora: has expired and will be refreshed.
+2022-04-25T10:58:21-0300 DEBUG fedora-cisco-openh264: has expired and will be refreshed.
+2022-04-25T10:58:21-0300 DEBUG fedora-modular: has expired and will be refreshed.
+2022-04-25T10:58:22-0300 DEBUG updates: has expired and will be refreshed.
+2022-04-25T10:58:22-0300 DEBUG updates-modular: has expired and will be refreshed.
+2022-04-25T10:58:22-0300 DEBUG google-chrome: has expired and will be refreshed.
+2022-04-25T10:58:22-0300 DEBUG google-chrome-unstable: has expired and will be refreshed.
+2022-04-25T10:58:22-0300 DEBUG kubernetes: has expired and will be refreshed.
+2022-04-25T10:58:22-0300 DEBUG rpmfusion-free: has expired and will be refreshed.
+2022-04-25T10:58:22-0300 DEBUG rpmfusion-free-updates: has expired and will be refreshed.
+2022-04-25T10:58:22-0300 DEBUG rpmfusion-nonfree: has expired and will be refreshed.
+2022-04-25T10:58:22-0300 DEBUG rpmfusion-nonfree-nvidia-driver: has expired and will be refreshed.
+2022-04-25T10:58:22-0300 DEBUG rpmfusion-nonfree-steam: has expired and will be refreshed.
+2022-04-25T10:58:22-0300 DEBUG rpmfusion-nonfree-updates: has expired and will be refreshed.
+2022-04-25T10:58:22-0300 DEBUG reviving: 'phracek-PyCharm' can be revived - repomd matches.
+2022-04-25T10:58:22-0300 DEBUG phracek-PyCharm: using metadata from qui 21 abr 2022 01:01:01.
+2022-04-25T10:58:22-0300 DEBUG reviving: 'elastic-7.x' can be revived - repomd matches.
+2022-04-25T10:58:22-0300 DEBUG elastic-7.x: using metadata from qua 20 abr 2022 01:04:06.
+2022-04-25T10:58:23-0300 DEBUG reviving: 'isv_Rancher_stable' can be revived - repomd matches.
+2022-04-25T10:58:23-0300 DEBUG isv_Rancher_stable: using metadata from sex 22 abr 2022 15:12:58.
+2022-04-25T10:58:23-0300 DEBUG reviving: 'docker-ce-stable' can be revived - repomd matches.
+2022-04-25T10:58:23-0300 DEBUG docker-ce-stable: using metadata from qua 23 mar 2022 23:35:23.
+2022-04-25T10:58:23-0300 DEBUG countme: no event for fedora: budget to spend: 1
+2022-04-25T10:58:24-0300 DEBUG reviving: 'fedora' can be revived - metalink checksums match.
+2022-04-25T10:58:24-0300 DEBUG fedora: using metadata from ter 26 out 2021 02:31:27.
+2022-04-25T10:58:25-0300 DEBUG reviving: 'fedora-cisco-openh264' can be revived - metalink checksums match.
+2022-04-25T10:58:25-0300 DEBUG fedora-cisco-openh264: using metadata from ter 21 set 2021 15:07:30.
+2022-04-25T10:58:25-0300 DEBUG countme: no event for fedora-modular: budget to spend: 2
+2022-04-25T10:58:26-0300 DEBUG reviving: 'fedora-modular' can be revived - metalink checksums match.
+2022-04-25T10:58:26-0300 DEBUG fedora-modular: using metadata from ter 26 out 2021 02:08:36.
+2022-04-25T10:58:26-0300 DEBUG countme: event triggered for updates: bucket 4
+2022-04-25T10:58:27-0300 DEBUG reviving: failed for 'updates', mismatched sha256 sum.
+2022-04-25T10:58:27-0300 DEBUG repo: downloading from remote: updates
+2022-04-25T10:58:27-0300 DEBUG countme: no event for updates: window already counted
+2022-04-25T10:58:35-0300 DEBUG updates: using metadata from seg 25 abr 2022 06:25:30.
+2022-04-25T10:58:35-0300 DEBUG countme: event triggered for updates-modular: bucket 4
+2022-04-25T10:58:36-0300 DEBUG reviving: 'updates-modular' can be revived - metalink checksums match.
+2022-04-25T10:58:36-0300 DEBUG updates-modular: using metadata from seg 04 abr 2022 21:44:03.
+2022-04-25T10:58:36-0300 DEBUG reviving: 'google-chrome' can be revived - repomd matches.
+2022-04-25T10:58:36-0300 DEBUG google-chrome: using metadata from qui 21 abr 2022 13:28:01.
+2022-04-25T10:58:36-0300 DEBUG reviving: 'google-chrome-unstable' can be revived - repomd matches.
+2022-04-25T10:58:36-0300 DEBUG google-chrome-unstable: using metadata from qui 21 abr 2022 13:28:01.
+2022-04-25T10:58:37-0300 DEBUG reviving: 'kubernetes' can be revived - repomd matches.
+2022-04-25T10:58:37-0300 DEBUG kubernetes: using metadata from seg 26 set 2016 02:26:57.
+2022-04-25T10:58:38-0300 DEBUG reviving: 'rpmfusion-free' can be revived - metalink checksums match.
+2022-04-25T10:58:38-0300 DEBUG rpmfusion-free: using metadata from sáb 23 out 2021 18:56:55.
+2022-04-25T10:58:38-0300 DEBUG reviving: failed for 'rpmfusion-free-updates', mismatched sha256 sum.
+2022-04-25T10:58:38-0300 DEBUG repo: downloading from remote: rpmfusion-free-updates
+2022-04-25T10:58:41-0300 DEBUG rpmfusion-free-updates: using metadata from dom 24 abr 2022 14:19:56.
+2022-04-25T10:58:42-0300 DEBUG reviving: 'rpmfusion-nonfree' can be revived - metalink checksums match.
+2022-04-25T10:58:42-0300 DEBUG rpmfusion-nonfree: using metadata from sáb 23 out 2021 20:27:21.
+2022-04-25T10:58:42-0300 DEBUG reviving: 'rpmfusion-nonfree-nvidia-driver' can be revived - metalink checksums match.
+2022-04-25T10:58:42-0300 DEBUG rpmfusion-nonfree-nvidia-driver: using metadata from dom 10 abr 2022 14:05:07.
+2022-04-25T10:58:43-0300 DEBUG reviving: 'rpmfusion-nonfree-steam' can be revived - metalink checksums match.
+2022-04-25T10:58:43-0300 DEBUG rpmfusion-nonfree-steam: using metadata from dom 13 fev 2022 14:48:10.
+2022-04-25T10:58:44-0300 DEBUG reviving: 'rpmfusion-nonfree-updates' can be revived - metalink checksums match.
+2022-04-25T10:58:44-0300 DEBUG rpmfusion-nonfree-updates: using metadata from dom 24 abr 2022 14:51:55.
+2022-04-25T10:58:44-0300 DEBUG User-Agent: constructed: 'libdnf (Fedora Linux 35; workstation; Linux.x86_64)'
+2022-04-25T10:58:45-0300 DDEBUG timer: sack setup: 22972 ms
+2022-04-25T10:58:45-0300 DEBUG Completion plugin: Generating completion cache...
+2022-04-25T10:58:45-0300 INFO Metadata cache created.
+2022-04-25T10:58:45-0300 DDEBUG Cleaning up.
+2022-04-25T11:39:04-0300 INFO --- logging initialized ---
+2022-04-25T11:39:04-0300 DDEBUG timer: config: 2 ms
+2022-04-25T11:39:04-0300 DEBUG Loaded plugins: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, groups-manager, needs-restarting, playground, repoclosure, repodiff, repograph, repomanage, reposync, system-upgrade
+2022-04-25T11:39:04-0300 DEBUG DNF version: 4.11.1
+2022-04-25T11:39:04-0300 DDEBUG Command: dnf install websocat 
+2022-04-25T11:39:04-0300 DDEBUG Installroot: /
+2022-04-25T11:39:04-0300 DDEBUG Releasever: 35
+2022-04-25T11:39:04-0300 DEBUG cachedir: /var/cache/dnf
+2022-04-25T11:39:04-0300 DDEBUG Base command: install
+2022-04-25T11:39:04-0300 DDEBUG Extra commands: ['install', 'websocat']
+2022-04-25T11:39:04-0300 DEBUG Unknown configuration option: autorefresh = 1 in /etc/yum.repos.d/_elastic.repo
+2022-04-25T11:39:04-0300 DEBUG User-Agent: constructed: 'libdnf (Fedora Linux 35; workstation; Linux.x86_64)'
+2022-04-25T11:39:04-0300 DEBUG repo: using cache for: phracek-PyCharm
+2022-04-25T11:39:04-0300 DEBUG phracek-PyCharm: using metadata from qui 21 abr 2022 01:01:01.
+2022-04-25T11:39:04-0300 DEBUG repo: using cache for: elastic-7.x
+2022-04-25T11:39:04-0300 DEBUG elastic-7.x: using metadata from qua 20 abr 2022 01:04:06.
+2022-04-25T11:39:04-0300 DEBUG repo: using cache for: isv_Rancher_stable
+2022-04-25T11:39:04-0300 DEBUG isv_Rancher_stable: using metadata from sex 22 abr 2022 15:12:58.
+2022-04-25T11:39:04-0300 DEBUG repo: using cache for: docker-ce-stable
+2022-04-25T11:39:04-0300 DEBUG docker-ce-stable: using metadata from qua 23 mar 2022 23:35:23.
+2022-04-25T11:39:04-0300 DEBUG repo: using cache for: fedora
+2022-04-25T11:39:04-0300 DEBUG fedora: using metadata from ter 26 out 2021 02:31:27.
+2022-04-25T11:39:04-0300 DEBUG repo: using cache for: fedora-cisco-openh264
+2022-04-25T11:39:04-0300 DEBUG fedora-cisco-openh264: using metadata from ter 21 set 2021 15:07:30.
+2022-04-25T11:39:04-0300 DEBUG repo: using cache for: fedora-modular
+2022-04-25T11:39:05-0300 DEBUG fedora-modular: using metadata from ter 26 out 2021 02:08:36.
+2022-04-25T11:39:05-0300 DEBUG repo: using cache for: updates
+2022-04-25T11:39:05-0300 DEBUG updates: using metadata from seg 25 abr 2022 06:25:30.
+2022-04-25T11:39:05-0300 DEBUG repo: using cache for: updates-modular
+2022-04-25T11:39:05-0300 DEBUG updates-modular: using metadata from seg 04 abr 2022 21:44:03.
+2022-04-25T11:39:05-0300 DEBUG repo: using cache for: google-chrome
+2022-04-25T11:39:05-0300 DEBUG google-chrome: using metadata from qui 21 abr 2022 13:28:01.
+2022-04-25T11:39:05-0300 DEBUG repo: using cache for: google-chrome-unstable
+2022-04-25T11:39:05-0300 DEBUG google-chrome-unstable: using metadata from qui 21 abr 2022 13:28:01.
+2022-04-25T11:39:05-0300 DEBUG repo: using cache for: kubernetes
+2022-04-25T11:39:05-0300 DEBUG kubernetes: using metadata from seg 26 set 2016 02:26:57.
+2022-04-25T11:39:05-0300 DEBUG repo: using cache for: rpmfusion-free
+2022-04-25T11:39:05-0300 DEBUG rpmfusion-free: using metadata from sáb 23 out 2021 18:56:55.
+2022-04-25T11:39:05-0300 DEBUG repo: using cache for: rpmfusion-free-updates
+2022-04-25T11:39:05-0300 DEBUG rpmfusion-free-updates: using metadata from dom 24 abr 2022 14:19:56.
+2022-04-25T11:39:05-0300 DEBUG repo: using cache for: rpmfusion-nonfree
+2022-04-25T11:39:05-0300 DEBUG rpmfusion-nonfree: using metadata from sáb 23 out 2021 20:27:21.
+2022-04-25T11:39:05-0300 DEBUG repo: using cache for: rpmfusion-nonfree-nvidia-driver
+2022-04-25T11:39:05-0300 DEBUG rpmfusion-nonfree-nvidia-driver: using metadata from dom 10 abr 2022 14:05:07.
+2022-04-25T11:39:05-0300 DEBUG repo: using cache for: rpmfusion-nonfree-steam
+2022-04-25T11:39:05-0300 DEBUG rpmfusion-nonfree-steam: using metadata from dom 13 fev 2022 14:48:10.
+2022-04-25T11:39:05-0300 DEBUG repo: using cache for: rpmfusion-nonfree-updates
+2022-04-25T11:39:05-0300 DEBUG rpmfusion-nonfree-updates: using metadata from dom 24 abr 2022 14:51:55.
+2022-04-25T11:39:05-0300 INFO Last metadata expiration check: 0:40:21 ago on seg 25 abr 2022 10:58:44.
+2022-04-25T11:39:07-0300 DDEBUG timer: sack setup: 2843 ms
+2022-04-25T11:39:07-0300 INFO No match for argument: websocat
+2022-04-25T11:39:07-0300 DDEBUG Cleaning up.
+2022-04-25T11:39:07-0300 SUBDEBUG 
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/dnf/cli/main.py", line 67, in main
+    return _main(base, args, cli_class, option_parser_class)
+  File "/usr/lib/python3.10/site-packages/dnf/cli/main.py", line 106, in _main
+    return cli_run(cli, base)
+  File "/usr/lib/python3.10/site-packages/dnf/cli/main.py", line 122, in cli_run
+    cli.run()
+  File "/usr/lib/python3.10/site-packages/dnf/cli/cli.py", line 1057, in run
+    return self.command.run()
+  File "/usr/lib/python3.10/site-packages/dnf/cli/commands/install.py", line 118, in run
+    raise dnf.exceptions.PackagesNotAvailableError(_("Unable to find a match"),
+dnf.exceptions.PackagesNotAvailableError: Unable to find a match: websocat
+2022-04-25T11:39:07-0300 CRITICAL Error: Unable to find a match: websocat
+2022-04-25T12:26:21-0300 INFO --- logging initialized ---
+2022-04-25T12:26:21-0300 DDEBUG timer: config: 2 ms
+2022-04-25T12:26:21-0300 DEBUG Loaded plugins: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, groups-manager, needs-restarting, playground, repoclosure, repodiff, repograph, repomanage, reposync, system-upgrade
+2022-04-25T12:26:21-0300 DEBUG DNF version: 4.11.1
+2022-04-25T12:26:21-0300 DDEBUG Command: dnf makecache --timer 
+2022-04-25T12:26:21-0300 DDEBUG Installroot: /
+2022-04-25T12:26:21-0300 DDEBUG Releasever: 35
+2022-04-25T12:26:21-0300 DEBUG cachedir: /var/cache/dnf
+2022-04-25T12:26:21-0300 DDEBUG Base command: makecache
+2022-04-25T12:26:21-0300 DDEBUG Extra commands: ['makecache', '--timer']
+2022-04-25T12:26:21-0300 DEBUG Unknown configuration option: autorefresh = 1 in /etc/yum.repos.d/_elastic.repo
+2022-04-25T12:26:21-0300 DEBUG Making cache files for all metadata files.
+2022-04-25T12:26:21-0300 INFO Metadata cache refreshed recently.
+2022-04-25T12:26:21-0300 DDEBUG Cleaning up.
+2022-05-01T11:15:11-0300 INFO --- logging initialized ---
+2022-05-01T11:15:11-0300 DDEBUG timer: config: 3 ms
+2022-05-01T11:15:11-0300 DEBUG Loaded plugins: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, groups-manager, needs-restarting, playground, repoclosure, repodiff, repograph, repomanage, reposync, system-upgrade
+2022-05-01T11:15:11-0300 DEBUG DNF version: 4.11.1
+2022-05-01T11:15:11-0300 DDEBUG Command: dnf makecache --timer 
+2022-05-01T11:15:11-0300 DDEBUG Installroot: /
+2022-05-01T11:15:11-0300 DDEBUG Releasever: 35
+2022-05-01T11:15:11-0300 DEBUG cachedir: /var/cache/dnf
+2022-05-01T11:15:11-0300 DDEBUG Base command: makecache
+2022-05-01T11:15:11-0300 DDEBUG Extra commands: ['makecache', '--timer']
+2022-05-01T11:15:11-0300 DEBUG Unknown configuration option: autorefresh = 1 in /etc/yum.repos.d/_elastic.repo
+2022-05-01T11:15:11-0300 DEBUG Making cache files for all metadata files.
+2022-05-01T11:15:11-0300 DEBUG phracek-PyCharm: has expired and will be refreshed.
+2022-05-01T11:15:11-0300 DEBUG elastic-7.x: has expired and will be refreshed.
+2022-05-01T11:15:11-0300 DEBUG isv_Rancher_stable: has expired and will be refreshed.
+2022-05-01T11:15:11-0300 DEBUG docker-ce-stable: has expired and will be refreshed.
+2022-05-01T11:15:12-0300 DEBUG fedora: has expired and will be refreshed.
+2022-05-01T11:15:12-0300 DEBUG fedora-cisco-openh264: has expired and will be refreshed.
+2022-05-01T11:15:12-0300 DEBUG fedora-modular: has expired and will be refreshed.
+2022-05-01T11:15:12-0300 DEBUG updates: has expired and will be refreshed.
+2022-05-01T11:15:12-0300 DEBUG updates-modular: has expired and will be refreshed.
+2022-05-01T11:15:12-0300 DEBUG google-chrome: has expired and will be refreshed.
+2022-05-01T11:15:12-0300 DEBUG google-chrome-unstable: has expired and will be refreshed.
+2022-05-01T11:15:12-0300 DEBUG kubernetes: has expired and will be refreshed.
+2022-05-01T11:15:12-0300 DEBUG rpmfusion-free: has expired and will be refreshed.
+2022-05-01T11:15:12-0300 DEBUG rpmfusion-free-updates: has expired and will be refreshed.
+2022-05-01T11:15:12-0300 DEBUG rpmfusion-nonfree: has expired and will be refreshed.
+2022-05-01T11:15:12-0300 DEBUG rpmfusion-nonfree-nvidia-driver: has expired and will be refreshed.
+2022-05-01T11:15:12-0300 DEBUG rpmfusion-nonfree-steam: has expired and will be refreshed.
+2022-05-01T11:15:12-0300 DEBUG rpmfusion-nonfree-updates: has expired and will be refreshed.
+2022-05-01T11:15:13-0300 DEBUG reviving: 'phracek-PyCharm' can be revived - repomd matches.
+2022-05-01T11:15:13-0300 DEBUG phracek-PyCharm: using metadata from qui 21 abr 2022 01:01:01.
+2022-05-01T11:15:13-0300 DEBUG reviving: 'elastic-7.x' can be revived - repomd matches.
+2022-05-01T11:15:13-0300 DEBUG elastic-7.x: using metadata from qua 20 abr 2022 01:04:06.
+2022-05-01T11:15:14-0300 DEBUG reviving: failed for 'isv_Rancher_stable', mismatched repomd.
+2022-05-01T11:15:14-0300 DEBUG repo: downloading from remote: isv_Rancher_stable
+2022-05-01T11:15:18-0300 DEBUG isv_Rancher_stable: using metadata from qui 28 abr 2022 18:19:41.
+2022-05-01T11:15:18-0300 DEBUG reviving: 'docker-ce-stable' can be revived - repomd matches.
+2022-05-01T11:15:18-0300 DEBUG docker-ce-stable: using metadata from qua 23 mar 2022 23:35:23.
+2022-05-01T11:15:18-0300 DEBUG countme: event triggered for fedora: bucket 4
+2022-05-01T11:15:19-0300 DEBUG reviving: 'fedora' can be revived - metalink checksums match.
+2022-05-01T11:15:19-0300 DEBUG fedora: using metadata from ter 26 out 2021 02:31:27.
+2022-05-01T11:15:19-0300 DEBUG reviving: 'fedora-cisco-openh264' can be revived - metalink checksums match.
+2022-05-01T11:15:19-0300 DEBUG fedora-cisco-openh264: using metadata from ter 21 set 2021 15:07:30.
+2022-05-01T11:15:19-0300 DEBUG countme: no event for fedora-modular: budget to spend: 1
+2022-05-01T11:15:20-0300 DEBUG reviving: 'fedora-modular' can be revived - metalink checksums match.
+2022-05-01T11:15:20-0300 DEBUG fedora-modular: using metadata from ter 26 out 2021 02:08:36.
+2022-05-01T11:15:20-0300 DEBUG countme: no event for updates: window already counted
+2022-05-01T11:15:21-0300 DEBUG reviving: failed for 'updates', mismatched sha256 sum.
+2022-05-01T11:15:21-0300 DEBUG repo: downloading from remote: updates
+2022-05-01T11:15:21-0300 DEBUG countme: no event for updates: window already counted
+2022-05-01T11:15:29-0300 DEBUG updates: using metadata from sáb 30 abr 2022 15:02:43.
+2022-05-01T11:15:29-0300 DEBUG countme: no event for updates-modular: window already counted
+2022-05-01T11:15:30-0300 DEBUG reviving: failed for 'updates-modular', mismatched sha256 sum.
+2022-05-01T11:15:30-0300 DEBUG repo: downloading from remote: updates-modular
+2022-05-01T11:15:30-0300 DEBUG countme: no event for updates-modular: window already counted
+2022-05-01T11:15:32-0300 DEBUG updates-modular: using metadata from sex 29 abr 2022 03:02:15.
+2022-05-01T11:15:32-0300 DEBUG reviving: failed for 'google-chrome', mismatched repomd.
+2022-05-01T11:15:32-0300 DEBUG repo: downloading from remote: google-chrome
+2022-05-01T11:15:33-0300 DEBUG google-chrome: using metadata from qui 28 abr 2022 15:33:39.
+2022-05-01T11:15:33-0300 DEBUG reviving: failed for 'google-chrome-unstable', mismatched repomd.
+2022-05-01T11:15:33-0300 DEBUG repo: downloading from remote: google-chrome-unstable
+2022-05-01T11:15:33-0300 DEBUG google-chrome-unstable: using metadata from qui 28 abr 2022 15:33:39.
+2022-05-01T11:15:34-0300 DEBUG reviving: 'kubernetes' can be revived - repomd matches.
+2022-05-01T11:15:34-0300 DEBUG kubernetes: using metadata from seg 26 set 2016 02:26:57.
+2022-05-01T11:15:35-0300 DEBUG reviving: 'rpmfusion-free' can be revived - metalink checksums match.
+2022-05-01T11:15:35-0300 DEBUG rpmfusion-free: using metadata from sáb 23 out 2021 18:56:55.
+2022-05-01T11:15:36-0300 DEBUG reviving: failed for 'rpmfusion-free-updates', mismatched sha256 sum.
+2022-05-01T11:15:36-0300 DEBUG repo: downloading from remote: rpmfusion-free-updates
+2022-05-01T11:15:38-0300 DEBUG rpmfusion-free-updates: using metadata from sex 29 abr 2022 09:04:00.
+2022-05-01T11:15:39-0300 DEBUG reviving: 'rpmfusion-nonfree' can be revived - metalink checksums match.
+2022-05-01T11:15:39-0300 DEBUG rpmfusion-nonfree: using metadata from sáb 23 out 2021 20:27:21.
+2022-05-01T11:15:40-0300 DEBUG reviving: failed for 'rpmfusion-nonfree-nvidia-driver', mismatched sha256 sum.
+2022-05-01T11:15:40-0300 DEBUG repo: downloading from remote: rpmfusion-nonfree-nvidia-driver
+2022-05-01T11:15:42-0300 DEBUG rpmfusion-nonfree-nvidia-driver: using metadata from sex 29 abr 2022 10:28:44.
+2022-05-01T11:15:43-0300 DEBUG reviving: 'rpmfusion-nonfree-steam' can be revived - metalink checksums match.
+2022-05-01T11:15:43-0300 DEBUG rpmfusion-nonfree-steam: using metadata from dom 13 fev 2022 14:48:10.
+2022-05-01T11:15:43-0300 DEBUG reviving: failed for 'rpmfusion-nonfree-updates', mismatched sha256 sum.
+2022-05-01T11:15:43-0300 DEBUG repo: downloading from remote: rpmfusion-nonfree-updates
+2022-05-01T11:15:45-0300 DEBUG rpmfusion-nonfree-updates: using metadata from sex 29 abr 2022 09:45:48.
+2022-05-01T11:15:45-0300 DEBUG User-Agent: constructed: 'libdnf (Fedora Linux 35; workstation; Linux.x86_64)'
+2022-05-01T11:15:47-0300 DDEBUG timer: sack setup: 34947 ms
+2022-05-01T11:15:47-0300 DEBUG Completion plugin: Generating completion cache...
+2022-05-01T11:15:47-0300 INFO Metadata cache created.
+2022-05-01T11:15:47-0300 DDEBUG Cleaning up.
+2022-05-14T15:08:51-0300 INFO --- logging initialized ---
+2022-05-14T15:08:51-0300 DDEBUG timer: config: 2 ms
+2022-05-14T15:08:51-0300 DEBUG Loaded plugins: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, groups-manager, needs-restarting, playground, repoclosure, repodiff, repograph, repomanage, reposync, system-upgrade
+2022-05-14T15:08:51-0300 DEBUG DNF version: 4.11.1
+2022-05-14T15:08:51-0300 DDEBUG Command: dnf makecache --timer 
+2022-05-14T15:08:51-0300 DDEBUG Installroot: /
+2022-05-14T15:08:51-0300 DDEBUG Releasever: 35
+2022-05-14T15:08:51-0300 DEBUG cachedir: /var/cache/dnf
+2022-05-14T15:08:51-0300 DDEBUG Base command: makecache
+2022-05-14T15:08:51-0300 DDEBUG Extra commands: ['makecache', '--timer']
+2022-05-14T15:08:51-0300 DEBUG Unknown configuration option: autorefresh = 1 in /etc/yum.repos.d/_elastic.repo
+2022-05-14T15:08:51-0300 DEBUG Making cache files for all metadata files.
+2022-05-14T15:08:51-0300 DEBUG phracek-PyCharm: has expired and will be refreshed.
+2022-05-14T15:08:51-0300 DEBUG elastic-7.x: has expired and will be refreshed.
+2022-05-14T15:08:51-0300 DEBUG isv_Rancher_stable: has expired and will be refreshed.
+2022-05-14T15:08:51-0300 DEBUG docker-ce-stable: has expired and will be refreshed.
+2022-05-14T15:08:51-0300 DEBUG fedora: has expired and will be refreshed.
+2022-05-14T15:08:51-0300 DEBUG fedora-cisco-openh264: has expired and will be refreshed.
+2022-05-14T15:08:51-0300 DEBUG fedora-modular: has expired and will be refreshed.
+2022-05-14T15:08:51-0300 DEBUG updates: has expired and will be refreshed.
+2022-05-14T15:08:51-0300 DEBUG updates-modular: has expired and will be refreshed.
+2022-05-14T15:08:51-0300 DEBUG google-chrome: has expired and will be refreshed.
+2022-05-14T15:08:51-0300 DEBUG google-chrome-unstable: has expired and will be refreshed.
+2022-05-14T15:08:51-0300 DEBUG kubernetes: has expired and will be refreshed.
+2022-05-14T15:08:51-0300 DEBUG rpmfusion-free: has expired and will be refreshed.
+2022-05-14T15:08:51-0300 DEBUG rpmfusion-free-updates: has expired and will be refreshed.
+2022-05-14T15:08:51-0300 DEBUG rpmfusion-nonfree: has expired and will be refreshed.
+2022-05-14T15:08:51-0300 DEBUG rpmfusion-nonfree-nvidia-driver: has expired and will be refreshed.
+2022-05-14T15:08:51-0300 DEBUG rpmfusion-nonfree-steam: has expired and will be refreshed.
+2022-05-14T15:08:51-0300 DEBUG rpmfusion-nonfree-updates: has expired and will be refreshed.
+2022-05-14T15:08:52-0300 DEBUG reviving: failed for 'phracek-PyCharm', mismatched repomd.
+2022-05-14T15:08:52-0300 DEBUG repo: downloading from remote: phracek-PyCharm
+2022-05-14T15:08:53-0300 DEBUG phracek-PyCharm: using metadata from sex 13 mai 2022 01:23:52.
+2022-05-14T15:08:53-0300 DEBUG reviving: 'elastic-7.x' can be revived - repomd matches.
+2022-05-14T15:08:53-0300 DEBUG elastic-7.x: using metadata from qua 20 abr 2022 01:04:06.
+2022-05-14T15:08:56-0300 DEBUG reviving: failed for 'isv_Rancher_stable', mismatched repomd.
+2022-05-14T15:08:56-0300 DEBUG repo: downloading from remote: isv_Rancher_stable
+2022-05-14T15:09:01-0300 DEBUG isv_Rancher_stable: using metadata from ter 10 mai 2022 19:17:37.
+2022-05-14T15:09:02-0300 DEBUG reviving: failed for 'docker-ce-stable', mismatched repomd.
+2022-05-14T15:09:02-0300 DEBUG repo: downloading from remote: docker-ce-stable
+2022-05-14T15:09:02-0300 DEBUG docker-ce-stable: using metadata from qui 12 mai 2022 11:10:52.
+2022-05-14T15:09:02-0300 DEBUG countme: no event for fedora: budget to spend: 3
+2022-05-14T15:09:03-0300 DEBUG reviving: 'fedora' can be revived - metalink checksums match.
+2022-05-14T15:09:03-0300 DEBUG fedora: using metadata from ter 26 out 2021 02:31:27.
+2022-05-14T15:09:04-0300 DEBUG reviving: 'fedora-cisco-openh264' can be revived - metalink checksums match.
+2022-05-14T15:09:04-0300 DEBUG fedora-cisco-openh264: using metadata from ter 21 set 2021 15:07:30.
+2022-05-14T15:09:04-0300 DEBUG countme: event triggered for fedora-modular: bucket 4
+2022-05-14T15:09:04-0300 DEBUG reviving: 'fedora-modular' can be revived - metalink checksums match.
+2022-05-14T15:09:04-0300 DEBUG fedora-modular: using metadata from ter 26 out 2021 02:08:36.
+2022-05-14T15:09:04-0300 DEBUG countme: no event for updates: budget to spend: 3
+2022-05-14T15:09:04-0300 DEBUG reviving: failed for 'updates', mismatched sha256 sum.
+2022-05-14T15:09:04-0300 DEBUG repo: downloading from remote: updates
+2022-05-14T15:09:04-0300 DEBUG countme: no event for updates: budget to spend: 2
+2022-05-14T15:09:13-0300 DEBUG updates: using metadata from sex 13 mai 2022 22:09:17.
+2022-05-14T15:09:13-0300 DEBUG countme: no event for updates-modular: budget to spend: 1
+2022-05-14T15:09:14-0300 DEBUG reviving: failed for 'updates-modular', mismatched sha256 sum.
+2022-05-14T15:09:14-0300 DEBUG repo: downloading from remote: updates-modular
+2022-05-14T15:09:14-0300 DEBUG countme: event triggered for updates-modular: bucket 4
+2022-05-14T15:09:15-0300 DEBUG updates-modular: using metadata from qui 12 mai 2022 00:20:05.
+2022-05-14T15:09:15-0300 DEBUG reviving: failed for 'google-chrome', mismatched repomd.
+2022-05-14T15:09:15-0300 DEBUG repo: downloading from remote: google-chrome
+2022-05-14T15:09:15-0300 DEBUG google-chrome: using metadata from qui 12 mai 2022 15:20:59.
+2022-05-14T15:09:15-0300 DEBUG reviving: failed for 'google-chrome-unstable', mismatched repomd.
+2022-05-14T15:09:15-0300 DEBUG repo: downloading from remote: google-chrome-unstable
+2022-05-14T15:09:16-0300 DEBUG google-chrome-unstable: using metadata from qui 12 mai 2022 15:20:59.
+2022-05-14T15:09:17-0300 DEBUG reviving: failed for 'kubernetes', mismatched repomd.
+2022-05-14T15:09:17-0300 DEBUG repo: downloading from remote: kubernetes
+2022-05-14T15:09:18-0300 DEBUG kubernetes: using metadata from qua 06 nov 2024 08:41:59.
+2022-05-14T15:09:19-0300 DEBUG reviving: 'rpmfusion-free' can be revived - metalink checksums match.
+2022-05-14T15:09:19-0300 DEBUG rpmfusion-free: using metadata from sáb 23 out 2021 18:56:55.
+2022-05-14T15:09:20-0300 DEBUG reviving: failed for 'rpmfusion-free-updates', mismatched sha256 sum.
+2022-05-14T15:09:20-0300 DEBUG repo: downloading from remote: rpmfusion-free-updates
+2022-05-14T15:09:23-0300 DEBUG rpmfusion-free-updates: using metadata from sex 13 mai 2022 07:05:33.
+2022-05-14T15:09:23-0300 DEBUG reviving: 'rpmfusion-nonfree' can be revived - metalink checksums match.
+2022-05-14T15:09:23-0300 DEBUG rpmfusion-nonfree: using metadata from sáb 23 out 2021 20:27:21.
+2022-05-14T15:09:24-0300 DEBUG reviving: failed for 'rpmfusion-nonfree-nvidia-driver', mismatched sha256 sum.
+2022-05-14T15:09:24-0300 DEBUG repo: downloading from remote: rpmfusion-nonfree-nvidia-driver
+2022-05-14T15:09:26-0300 DEBUG rpmfusion-nonfree-nvidia-driver: using metadata from sex 13 mai 2022 06:29:23.
+2022-05-14T15:09:27-0300 DEBUG reviving: 'rpmfusion-nonfree-steam' can be revived - metalink checksums match.
+2022-05-14T15:09:27-0300 DEBUG rpmfusion-nonfree-steam: using metadata from dom 13 fev 2022 14:48:10.
+2022-05-14T15:09:28-0300 DEBUG reviving: failed for 'rpmfusion-nonfree-updates', mismatched sha256 sum.
+2022-05-14T15:09:28-0300 DEBUG repo: downloading from remote: rpmfusion-nonfree-updates
+2022-05-14T15:09:30-0300 DEBUG rpmfusion-nonfree-updates: using metadata from sex 13 mai 2022 07:31:44.
+2022-05-14T15:09:30-0300 DEBUG User-Agent: constructed: 'libdnf (Fedora Linux 35; workstation; Linux.x86_64)'
+2022-05-14T15:09:31-0300 DDEBUG timer: sack setup: 39979 ms
+2022-05-14T15:09:31-0300 DEBUG Completion plugin: Generating completion cache...
+2022-05-14T15:09:32-0300 INFO Metadata cache created.
+2022-05-14T15:09:32-0300 DDEBUG Cleaning up.
+2022-05-14T15:40:14-0300 INFO --- logging initialized ---
+2022-05-14T15:40:14-0300 DDEBUG timer: config: 2 ms
+2022-05-14T15:40:14-0300 DEBUG Loaded plugins: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, groups-manager, needs-restarting, playground, repoclosure, repodiff, repograph, repomanage, reposync, system-upgrade
+2022-05-14T15:40:14-0300 DEBUG YUM version: 4.11.1
+2022-05-14T15:40:14-0300 DDEBUG Command: yum install openssl 
+2022-05-14T15:40:14-0300 DDEBUG Installroot: /
+2022-05-14T15:40:14-0300 DDEBUG Releasever: 35
+2022-05-14T15:40:14-0300 DEBUG cachedir: /var/cache/dnf
+2022-05-14T15:40:14-0300 DDEBUG Base command: install
+2022-05-14T15:40:14-0300 DDEBUG Extra commands: ['install', 'openssl']
+2022-05-14T15:40:14-0300 DEBUG Unknown configuration option: autorefresh = 1 in /etc/yum.repos.d/_elastic.repo
+2022-05-14T15:40:14-0300 DEBUG User-Agent: constructed: 'libdnf (Fedora Linux 35; workstation; Linux.x86_64)'
+2022-05-14T15:40:14-0300 DEBUG repo: using cache for: phracek-PyCharm
+2022-05-14T15:40:14-0300 DEBUG phracek-PyCharm: using metadata from sex 13 mai 2022 01:23:52.
+2022-05-14T15:40:14-0300 DEBUG repo: using cache for: elastic-7.x
+2022-05-14T15:40:14-0300 DEBUG elastic-7.x: using metadata from qua 20 abr 2022 01:04:06.
+2022-05-14T15:40:14-0300 DEBUG repo: using cache for: isv_Rancher_stable
+2022-05-14T15:40:14-0300 DEBUG isv_Rancher_stable: using metadata from ter 10 mai 2022 19:17:37.
+2022-05-14T15:40:14-0300 DEBUG repo: using cache for: docker-ce-stable
+2022-05-14T15:40:14-0300 DEBUG docker-ce-stable: using metadata from qui 12 mai 2022 11:10:52.
+2022-05-14T15:40:15-0300 DEBUG repo: using cache for: fedora
+2022-05-14T15:40:15-0300 DEBUG fedora: using metadata from ter 26 out 2021 02:31:27.
+2022-05-14T15:40:15-0300 DEBUG repo: using cache for: fedora-cisco-openh264
+2022-05-14T15:40:15-0300 DEBUG fedora-cisco-openh264: using metadata from ter 21 set 2021 15:07:30.
+2022-05-14T15:40:15-0300 DEBUG repo: using cache for: fedora-modular
+2022-05-14T15:40:15-0300 DEBUG fedora-modular: using metadata from ter 26 out 2021 02:08:36.
+2022-05-14T15:40:15-0300 DEBUG repo: using cache for: updates
+2022-05-14T15:40:15-0300 DEBUG updates: using metadata from sex 13 mai 2022 22:09:17.
+2022-05-14T15:40:15-0300 DEBUG repo: using cache for: updates-modular
+2022-05-14T15:40:15-0300 DEBUG updates-modular: using metadata from qui 12 mai 2022 00:20:05.
+2022-05-14T15:40:15-0300 DEBUG repo: using cache for: google-chrome
+2022-05-14T15:40:15-0300 DEBUG google-chrome: using metadata from qui 12 mai 2022 15:20:59.
+2022-05-14T15:40:15-0300 DEBUG repo: using cache for: google-chrome-unstable
+2022-05-14T15:40:15-0300 DEBUG google-chrome-unstable: using metadata from qui 12 mai 2022 15:20:59.
+2022-05-14T15:40:15-0300 DEBUG repo: using cache for: kubernetes
+2022-05-14T15:40:15-0300 DEBUG kubernetes: using metadata from qua 06 nov 2024 08:41:59.
+2022-05-14T15:40:15-0300 DEBUG repo: using cache for: rpmfusion-free
+2022-05-14T15:40:15-0300 DEBUG rpmfusion-free: using metadata from sáb 23 out 2021 18:56:55.
+2022-05-14T15:40:15-0300 DEBUG repo: using cache for: rpmfusion-free-updates
+2022-05-14T15:40:15-0300 DEBUG rpmfusion-free-updates: using metadata from sex 13 mai 2022 07:05:33.
+2022-05-14T15:40:15-0300 DEBUG repo: using cache for: rpmfusion-nonfree
+2022-05-14T15:40:15-0300 DEBUG rpmfusion-nonfree: using metadata from sáb 23 out 2021 20:27:21.
+2022-05-14T15:40:15-0300 DEBUG repo: using cache for: rpmfusion-nonfree-nvidia-driver
+2022-05-14T15:40:15-0300 DEBUG rpmfusion-nonfree-nvidia-driver: using metadata from sex 13 mai 2022 06:29:23.
+2022-05-14T15:40:15-0300 DEBUG repo: using cache for: rpmfusion-nonfree-steam
+2022-05-14T15:40:15-0300 DEBUG rpmfusion-nonfree-steam: using metadata from dom 13 fev 2022 14:48:10.
+2022-05-14T15:40:15-0300 DEBUG repo: using cache for: rpmfusion-nonfree-updates
+2022-05-14T15:40:15-0300 DEBUG rpmfusion-nonfree-updates: using metadata from sex 13 mai 2022 07:31:44.
+2022-05-14T15:40:15-0300 INFO Last metadata expiration check: 0:30:46 ago on sáb 14 mai 2022 15:09:29.
+2022-05-14T15:40:17-0300 DDEBUG timer: sack setup: 2737 ms
+2022-05-14T15:40:17-0300 INFO Package openssl-1:1.1.1n-1.fc35.x86_64 is already installed.
+2022-05-14T15:40:17-0300 DEBUG --> Starting dependency resolution
+2022-05-14T15:40:17-0300 DEBUG --> Finished dependency resolution
+2022-05-14T15:40:17-0300 DDEBUG timer: depsolve: 52 ms
+2022-05-14T15:40:17-0300 INFO Dependencies resolved.
+2022-05-14T15:40:17-0300 INFO Nothing to do.
+2022-05-14T15:40:17-0300 INFO Complete!
+2022-05-14T15:40:17-0300 DDEBUG Cleaning up.

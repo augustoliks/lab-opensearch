@@ -1,0 +1,9 @@
+# https://github.com/opensearch-project/OpenSearch-Dashboards/blob/main/config/opensearch_dashboards.yml
+
+server.port: 5601
+server.host: "0.0.0.0"
+server.ssl.enabled: false
+
+opensearch.hosts: ["http://opensearch:9200"]
+opensearch.username: "admin"
+opensearch.password: "admin"
