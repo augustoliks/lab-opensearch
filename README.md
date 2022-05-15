@@ -42,7 +42,7 @@ To check logs, run:
 $ docker-compose logs
 ```
 
-If all containers is `up` state, access the resources from localhost with the following links:
+The resources can be accessed with the following links:
 
 - OpenSearch Dashboards: http://127.0.0.1:5601/
 - OpenSearch: http://127.0.0.1:9200/
