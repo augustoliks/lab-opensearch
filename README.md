@@ -1,12 +1,12 @@
 # lab-opensearch
 
-Lab created to tests configuration Filebeat, Logstash and OpenSearch and OpenSearch stack.
+Lab created to test configuration Filebeat, Logstash, and OpenSearch and OpenSearch stack.
 
-The tools configuration not has SSL or authentication plugins enabled. This lab was created to tests purposes only, dont apply it in your production infrastrature.
+The tool's configuration does not have SSL or authentication plugins enabled. This lab was created to test purposes only, don't apply it in your production infrastructure.
 
 ## How To Run 
 
-The lab was created to run over `docker`. To set up containers configuration was used `docker-compose`.
+The lab was created to run over `docker`. To set up container configuration use `docker-compose`.
 
 ```bash
 $ docker-compose up --build -d 
@@ -18,10 +18,10 @@ To check logs, run:
 $ docker-compose logs
 ```
 
-If all containers is `up` state, access the resources from localhost with following links:
+If all containers is `up` state, access the resources from localhost with the following links:
 
 - OpenSearch Dashboards: http://127.0.0.1:5601/
-- OpenSearch: http://127.0.0.1:5601/
+- OpenSearch: http://127.0.0.1:9200/
 
 ## Cheat Sheet
 
