@@ -4,7 +4,7 @@ Lab created to test configuration Filebeat, Logstash, and OpenSearch and OpenSea
 
 The tool's configuration does not have SSL or authentication plugins enabled. This lab was created to test purposes only, don't apply it in your production infrastructure.
 
-Project layout directory:
+Project directory layout:
 
 ```bash
 ├── docker-compose.yml              # containers config state
